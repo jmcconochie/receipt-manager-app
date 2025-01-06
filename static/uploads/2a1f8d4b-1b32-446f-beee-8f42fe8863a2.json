@@ -1,0 +1,40 @@
+{
+  "store": {
+    "name": "David Jones",
+    "abn": "76 000 074 873",
+    "phone": "",
+    "address": "Cannington WA"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "22/12/2024"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "22/12/2024 09:49",
+    "team_member": "",
+    "payment_method": "MasterCard",
+    "approval_code": "R73576",
+    "amount": 209.0,
+    "gst_included": 19.0
+  },
+  "items": [
+    {
+      "description": "Sonict Electric",
+      "price": 129.0,
+      "gst_in_item": 11.73
+    },
+    {
+      "description": "Quencher 2.0 TUND",
+      "price": 60.0,
+      "gst_in_item": 5.45
+    }
+  ],
+  "totals": {
+    "subtotal": 209.0,
+    "gst_included": 19.0,
+    "grand_total": 209.0
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "categories": []
+}

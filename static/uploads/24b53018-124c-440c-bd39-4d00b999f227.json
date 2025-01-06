@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "endota",
+    "abn": "94621135706",
+    "phone": "0861461128",
+    "address": "Westfield Carousel Shopping Centre Shop 1234, Albany Highway"
+  },
+  "tax_invoice": {
+    "invoice_number": "RCAR15941",
+    "date": "23/12/2024"
+  },
+  "transaction": {
+    "transaction_number": "RCARR11703",
+    "date_time": "23/12/2024 10:05 AM",
+    "team_member": "Jelena Neskovic",
+    "payment_method": "EFTPOS",
+    "approval_code": "",
+    "amount": 125.0,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "MAS24 Organics Nourishing Duo",
+      "price": 125.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 125.0,
+    "gst_included": 0.0,
+    "grand_total": 125.0
+  },
+  "notes": "The date format is assumed to be DD/MM/YYYY.",
+  "categories": [
+    "warranty"
+  ]
+}

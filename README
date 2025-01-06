@@ -1,0 +1,18 @@
+# TO DO 
+# 1. Make app work for large numbers of receipts 
+
+
+
+# buildrun_docker.sh does what it says
+http://192.168.86.10:5000
+
+
+# This is useful to debug
+docker exec -it receipt_scanner tail -f /var/log/flask_app.err.log
+
+# This is where to see activity and add money for using the chatgpt API
+https://platform.openai.com/usage/activity
+
+# All the images and processed receipts are stored in static/uploads
+# Taking a copy of this is enough for a backup
+# Running the Download Full Dataset (ZIP) does this and gives a simple html index into the data

@@ -1,0 +1,36 @@
+{
+  "store": {
+    "name": "Ampol Retail Pty Ltd",
+    "abn": "64 000 175 342",
+    "phone": "08 92775462",
+    "address": "111 Great Eastern Highway"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "12/12/2024"
+  },
+  "transaction": {
+    "transaction_number": "05553300",
+    "date_time": "12/12/2024 10:31:17",
+    "team_member": "8311",
+    "payment_method": "MASTERCARD",
+    "approval_code": "R92560",
+    "amount": 88.12,
+    "gst_included": 8.01
+  },
+  "items": [
+    {
+      "description": "PREM95A 42.80L @ $2.059/L",
+      "price": 88.12,
+      "gst_in_item": 8.01
+    }
+  ],
+  "totals": {
+    "subtotal": 80.11,
+    "gst_included": 8.01,
+    "grand_total": 88.12
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "categories": [],
+  "scanned_on": "2025-01-06T11:49:11.292931"
+}

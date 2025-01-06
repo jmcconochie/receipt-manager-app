@@ -1,0 +1,36 @@
+{
+  "store": {
+    "name": "Peter Alexander Sleepwear Pty Ltd",
+    "abn": "48091296776",
+    "phone": "",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "2015-5396-0338",
+    "date": "23/12/2024"
+  },
+  "transaction": {
+    "transaction_number": "01/332901004694",
+    "date_time": "23/12/2024 10:12AM",
+    "team_member": "Kira",
+    "payment_method": "EFTPOS",
+    "approval_code": "R88624",
+    "amount": 129.0,
+    "gst_included": 11.73
+  },
+  "items": [
+    {
+      "description": "COR LILAC STRIPE SATIN SET",
+      "price": 129.0,
+      "gst_in_item": 11.73
+    }
+  ],
+  "totals": {
+    "subtotal": 117.27,
+    "gst_included": 11.73,
+    "grand_total": 129.0
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "categories": [],
+  "scanned_on": "2025-01-06T11:56:25.235826"
+}

@@ -1,0 +1,45 @@
+{
+  "store": {
+    "name": "Total Tools Kewdale",
+    "abn": "69 607 247 361",
+    "phone": "08 6189 0290",
+    "address": "156 Kewdale Road, Kewdale, WA 6105"
+  },
+  "tax_invoice": {
+    "invoice_number": "92074",
+    "date": "21/12/2024"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "Kyle Teard",
+    "payment_method": "Cash",
+    "approval_code": "",
+    "amount": 107.0,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "Pad Polishing H&L Sponge",
+      "price": 25.0,
+      "gst_in_item": 1.5
+    },
+    {
+      "description": "Voltage Detector 50-1000V",
+      "price": 44.0,
+      "gst_in_item": 2.64
+    },
+    {
+      "description": "Pad Backing H&L Polisher",
+      "price": 38.66,
+      "gst_in_item": 2.32
+    }
+  ],
+  "totals": {
+    "subtotal": 107.0,
+    "gst_included": 0.0,
+    "grand_total": 107.0
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "categories": []
+}

@@ -1,0 +1,41 @@
+{
+  "store": {
+    "name": "JB Hi-Fi",
+    "abn": "37 093 114 266",
+    "phone": "08 9699 2200",
+    "address": "Tenancy 174, 1 Council Ave, Rockingham, WA, 6166"
+  },
+  "tax_invoice": {
+    "invoice_number": "0403371496",
+    "date": "16/02/2022"
+  },
+  "transaction": {
+    "transaction_number": "0403371496",
+    "date_time": "16/02/2022 10:30",
+    "team_member": "",
+    "payment_method": "EFTPOS-VISA-MC",
+    "approval_code": "#40337 1495-2",
+    "amount": 800.0,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "THRUSTMASTER T-GT II RACING WHEEL",
+      "price": 1360.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "THRUSTMASTER TH8A SHIFTER WHEEL",
+      "price": 329.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 1679.0,
+    "gst_included": 0.0,
+    "grand_total": 1679.0
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "categories": [],
+  "scanned_on": "2025-01-06T11:31:21.697837"
+}

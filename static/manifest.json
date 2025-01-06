@@ -1,0 +1,21 @@
+{
+  "name": "Receipt Manager",
+  "short_name": "Receipts",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/static/icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+

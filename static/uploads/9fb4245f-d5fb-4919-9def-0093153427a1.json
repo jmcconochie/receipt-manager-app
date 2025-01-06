@@ -1,0 +1,41 @@
+{
+  "store": {
+    "name": "Caltex Victoria Park",
+    "abn": "34 004 441 1",
+    "phone": "",
+    "address": "170 Albany Highway, Victoria Park, WA"
+  },
+  "tax_invoice": {
+    "invoice_number": "003991714",
+    "date": "01/12/2024"
+  },
+  "transaction": {
+    "transaction_number": "003991714",
+    "date_time": "01/12/2024 06:53",
+    "team_member": "Lane 1",
+    "payment_method": "Debit Mastercard",
+    "approval_code": "RU6BS4",
+    "amount": 14.85,
+    "gst_included": 1.18
+  },
+  "items": [
+    {
+      "description": "Crushed Ice",
+      "price": 1.0,
+      "gst_in_item": 0.1
+    },
+    {
+      "description": "Fuel",
+      "price": 13.0,
+      "gst_in_item": 1.18
+    }
+  ],
+  "totals": {
+    "subtotal": 14.0,
+    "gst_included": 1.18,
+    "grand_total": 14.85
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "categories": [],
+  "scanned_on": "2025-01-06T11:54:43.334361"
+}

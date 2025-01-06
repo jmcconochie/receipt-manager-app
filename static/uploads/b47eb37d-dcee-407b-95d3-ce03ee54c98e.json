@@ -1,0 +1,36 @@
+{
+  "store": {
+    "name": "Kmart",
+    "abn": "73 004 700 485",
+    "phone": "08 6330 3000",
+    "address": "Victoria Park, WA, AU"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "13/12/2024"
+  },
+  "transaction": {
+    "transaction_number": "60133345 K27892",
+    "date_time": "13/12/2024 12:14",
+    "team_member": "Kumar",
+    "payment_method": "Mastercard",
+    "approval_code": "R541/71",
+    "amount": 234.95,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "Party Gift Card",
+      "price": 207.49,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 234.95,
+    "gst_included": 0.0,
+    "grand_total": 234.95
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "categories": [],
+  "scanned_on": "2025-01-06T11:49:51.527904"
+}

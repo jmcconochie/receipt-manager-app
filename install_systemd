@@ -1,0 +1,86 @@
+#!/usr/bin/bash
+
+# install_systemd.sh
+# Automates setup of a Docker container systemd service and daily restart timer.
+
+# Define variables
+SERVICE_NAME="receipt_scanner"
+TIMER_NAME="receipt_scanner-restart"
+SCRIPT_PATH="/mnt/bu1/jason/receipt_scanner/buildrun_docker.sh"
+RESTART_TIME="03:00:00"  # Daily restart time (24-hour format)
+
+# Ensure the script is run as root
+if [ "$(id -u)" -ne 0 ]; then
+    echo "⚠️  Please run this script as root (or with sudo)."
+    exit 1
+fi
+
+# Step 1: Create systemd Service File
+echo "🛠️  Creating systemd service: $SERVICE_NAME"
+cat <<EOF > /etc/systemd/system/${SERVICE_NAME}.service
+
+
+[Unit]
+Description=Receipt Scanner Docker Container
+After=network.target docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStartPre=-/usr/bin/docker stop ${SERVICE_NAME}
+ExecStartPre=-/usr/bin/docker rm ${SERVICE_NAME}
+ExecStart=${SCRIPT_PATH}
+ExecStop=/usr/bin/docker stop ${SERVICE_NAME}
+ExecStopPost=/usr/bin/docker rm ${SERVICE_NAME}
+Restart=on-failure
+RestartSec=10s
+TimeoutStartSec=300
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+# Step 2: Create systemd Timer File
+echo "🕒  Creating systemd timer: $TIMER_NAME"
+cat <<EOF > /etc/systemd/system/${TIMER_NAME}.timer
+[Unit]
+Description=Restart Receipt Scanner Docker Container Every 24 Hours
+
+[Timer]
+OnCalendar=*-*-* ${RESTART_TIME}
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+EOF
+
+# Step 3: Reload systemd
+echo "🔄  Reloading systemd daemon"
+systemctl daemon-reload
+
+# Step 4: Enable and Start Service
+echo "🚀  Enabling and starting the service: $SERVICE_NAME"
+systemctl enable ${SERVICE_NAME}.service
+systemctl start ${SERVICE_NAME}.service
+
+# Step 5: Enable and Start Timer
+echo "⏲️  Enabling and starting the timer: $TIMER_NAME"
+systemctl enable ${TIMER_NAME}.timer
+systemctl start ${TIMER_NAME}.timer
+
+# Step 6: Verify Service and Timer Status
+echo "✅  Verifying service and timer status"
+
+echo "🔍 Service Status:"
+systemctl status ${SERVICE_NAME}.service --no-pager
+
+echo "🔍 Timer Status:"
+systemctl list-timers --all | grep ${TIMER_NAME}
+
+# Step 7: Display Logs for Debugging
+echo "📄 Docker Logs:"
+docker logs ${SERVICE_NAME} || echo "⚠️  No Docker logs available yet."
+
+echo "🎉 Installation complete! The service '${SERVICE_NAME}' is set to run at startup and restart daily at ${RESTART_TIME}."
+

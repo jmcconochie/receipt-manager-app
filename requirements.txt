@@ -1,0 +1,10 @@
+Flask
+Pillow
+pytesseract
+openai
+pillow-heif
+gunicorn
+requests
+celery
+redis
+

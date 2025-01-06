@@ -1,0 +1,46 @@
+{
+  "store": {
+    "name": "Farmer Jack's",
+    "abn": "",
+    "phone": "2060370222",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "23/12/2024"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "23/12/2024 8:40:32 AM",
+    "team_member": "Jai",
+    "payment_method": "EFTPOS/Mordex",
+    "approval_code": "287732",
+    "amount": 261.16,
+    "gst_included": 0.43
+  },
+  "items": [
+    {
+      "description": "4 COFF PURPLE",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "WA FARMERS OWN EGGS",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "TOMA sinc Gs",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 261.16,
+    "gst_included": 0.43,
+    "grand_total": 261.16
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "categories": [],
+  "scanned_on": "2025-01-06T11:48:48.457199"
+}

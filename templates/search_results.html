@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Search Results</title>
+</head>
+<body>
+  <h1>Search Results for "{{ query }}"</h1>
+
+  {% if results %}
+    <ul>
+    {% for result in results %}
+      <li>
+        <h2>JSON File: {{ result.json_file }}</h2>
+        {% if result.image_file %}
+          <img 
+            src="{{ url_for('static', filename='uploads/' ~ result.image_file) }}" 
+            alt="Receipt Image" 
+            style="max-width:300px;"
+          >
+        {% endif %}
+        <pre>{{ result.json_data | tojson(indent=2) }}</pre>
+      </li>
+    {% endfor %}
+    </ul>
+  {% else %}
+    <p>No matches found!</p>
+  {% endif %}
+  
+  <p><a href="/search">Go back</a></p>
+</body>
+</html>
+
