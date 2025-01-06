@@ -9,7 +9,6 @@ CONTAINER_NAME="receipt_scanner"
 HOST_UPLOADS_DIR="/mnt/bu1/jason/receipt_scanner/static"
 CONTAINER_UPLOADS_DIR="/app/static"
 PORT_MAPPING="5000:5000"
-OPENAI_API_KEY="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" 
 
 # Step 1: Stop and remove any existing container with the same name
 if docker ps -a | grep -q $CONTAINER_NAME; then
