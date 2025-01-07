@@ -13,7 +13,7 @@
     "transaction_number": "0403371496",
     "date_time": "16/02/2022 10:30",
     "team_member": "",
-    "payment_method": "EFTPOS-VISA-MC",
+    "payment_method": "EFTPOS-VISA-MC- ONLINE",
     "approval_code": "#40337 1495-2",
     "amount": 800.0,
     "gst_included": 0.0
@@ -37,5 +37,5 @@
   },
   "notes": "Date format is assumed to be dd/mm/yyyy.",
   "categories": [],
-  "scanned_on": "2025-01-06T11:31:21.697837"
+  "scanned_on": "2025-01-07T03:51:46.789520"
 }

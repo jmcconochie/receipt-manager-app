@@ -6,7 +6,6 @@ import csv
 import shutil
 import zipfile
 from datetime import datetime
-from dotenv import load_dotenv
 
 import requests
 from flask import Flask, request, jsonify, render_template, Response, send_file
@@ -17,7 +16,6 @@ import openai
 import pytesseract
 from PIL import Image, ImageOps
 
-load_dotenv()
 api_key = os.environ.get("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 CHATGPT_MODEL = "gpt-4o-mini"

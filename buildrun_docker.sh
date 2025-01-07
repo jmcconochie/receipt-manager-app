@@ -9,6 +9,7 @@ CONTAINER_NAME="receipt_scanner"
 HOST_UPLOADS_DIR="/mnt/bu1/jason/receipt_scanner/static"
 CONTAINER_UPLOADS_DIR="/app/static"
 PORT_MAPPING="5000:5000"
+ENV_FILE=".env"
 
 # Step 1: Stop and remove any existing container with the same name
 if docker ps -a | grep -q $CONTAINER_NAME; then
@@ -28,7 +29,7 @@ docker run -d \
   --network=bridge \
   -p "$PORT_MAPPING" \
   -v "$HOST_UPLOADS_DIR":"$CONTAINER_UPLOADS_DIR" \
-  -e OPENAI_API_KEY="$OPENAI_API_KEY" \
+  --env-file "$ENV_FILE" \
   -e CELERY_BROKER_URL="redis://172.17.0.1:6379/0" \
   "$IMAGE_NAME"
 
