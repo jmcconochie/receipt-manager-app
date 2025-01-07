@@ -19,267 +19,234 @@
 
   <style>
 
+    /* Base Styles */
 
-        /* General Styles */
-        body {
-          background-color: #f8f9fa;
-          font-family: Arial, sans-serif;
-        }
-
-        .container {
-          margin-top: 0.5rem;  /* Reduce the top margin */
-        }
+    /* Body Styling */
+    body {
+      background-color: #f8f9fa;
+    }
     
-        /* Navbar Styling */
-        .navbar {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 0.2rem 1rem;
-          height: 50px;
-          margin-bottom: 0.5rem;
-        }
+    /* Navbar Styling */
+    .navbar {
+      padding: 0.2rem 1rem; /* Reduce padding */
+      height: 50px; /* Reduced navbar height */
+    }
     
-        .navbar-brand {
-          font-weight: 600;
-          font-size: 1.25rem;
-          display: flex;
-          align-items: center;
-        }
+    .navbar-brand {
+      font-weight: 600;
+      font-size: 1.25rem;
+    }
     
-        .navbar-brand img {
-          width: 24px;
-          height: 24px;
-          margin-right: 0.5rem;
-        }
+    .navbar-brand img {
+      width: 24px; /* Smaller logo */
+      height: 24px;
+    }
     
-        /* Refresh Button Styling */
-        #refreshDashboard {
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-        }
+    /* Tab and Content Styling */
+    .nav-tabs {
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid #ddd;
+    }
     
-        #refreshDashboard i {
-          font-size: 1.25rem;
-        }
+    .nav-tabs .nav-link {
+      padding: 0.3rem 0.8rem;
+      font-size: 0.9rem;
+    }
     
-        /* Tab Navigation */
-        .nav-tabs {
-          margin-bottom: 0.5rem;
-          border-bottom: 1px solid #ddd;
-          display: flex;
-          justify-content: center;
-          width: 100%;
-        }
+    .tab-content {
+      margin-top: 0.5rem;
+      padding: 0.8rem;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: .25rem;
+      overflow: hidden;
+    }
     
-        .nav-tabs .nav-link {
-          padding: 0.3rem 1rem;
-          font-size: 0.9rem;
-          text-align: center;
-        }
+    /* Table Styling */
+    .table {
+      width: 100%;
+      table-layout: fixed;
+      overflow: hidden;
+      font-size: 0.85rem;
+    }
     
-        /* Tab Content */
-        .tab-content {
-          padding: 1rem;
-          width: 100%;
-          margin-top: 1rem;
-          background: #fff;
-          border: 1px solid #ddd;
-          border-radius: .25rem;
-        }
+    .table th, .table td {
+      padding: 0.4rem;
+      vertical-align: middle;
+    }
     
-        /* Button Styles */
-        .upload-btn, .btn-delete, .material-btn-round {
-          width: 100%;
-        }
+    #uploadStatusTable thead th,
+    #dashboard .table thead th {
+      background-color: #f8f9fa;
+      color: #6c757d;
+      border-bottom: 1px solid #e9ecef;
+    }
     
-        .material-btn-round {
-          background-color: #2196F3;
-          border: none;
-          border-radius: 50%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          cursor: pointer;
-          transition: background-color 0.3s;
-          width: 36px;
-          height: 36px;
-        }
+    #uploadStatusTable tbody td,
+    #dashboard .table tbody td {
+      text-align: center;
+    }
     
-        .material-btn-round i {
-          font-size: 18px;
-          color: white;
-        }
+    #dashboard .tab-pane {
+      max-height: 75vh;
+      overflow-y: auto;
+    }
     
-        /* Flex Layout for Photo Upload */
-        .d-flex {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          gap: 1rem;
-        }
+    /* Flexbox Layouts */
+    .d-flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
     
-        #imagePreviewContainer {
-          width: 100px;
-          height: 100px;
-          border: 1px solid #ccc;
-          border-radius: 8px;
-          background-color: #f9f9f9;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
     
-        #previewImage {
-          max-width: 100%;
-          max-height: 100%;
-          object-fit: cover;
-        }
+    /* Button Styles */
+    .material-btn-round {
+      background-color: #2196F3;
+      border-radius: 50%;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      padding: 0;
+      box-sizing: border-box;
+    }
     
-        /* Table Styling */
-        .table {
-          width: 100%;
-          table-layout: auto;
-          border-collapse: collapse;
-        }
+    .material-btn-round:hover {
+      background-color: #1976D2;
+    }
     
-        .table th, .table td {
-          padding: 0.75rem;
-          text-align: left;
-          word-wrap: break-word;
-        }
+    .material-btn-round i {
+      font-size: 14px;
+      color: white;
+    }
     
-        .table th {
-          font-size: 0.9rem;
-          font-weight: 600;
-          background-color: #f8f9fa;
-          border-bottom: 1px solid #ddd;
-        }
+    .btn {
+      padding: 0.4rem 0.8rem;
+      font-size: 0.9rem;
+    }
     
-        .table td {
-          font-size: 0.85rem;
-        }
+    /* Input and File Upload */
+    #imagePreviewContainer {
+      width: 100px;
+      height: 100px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     
-        /* Table Column Styling */
-        #dashboard .table td:nth-child(2) {
-          text-align: right;
-        }
+    #previewImage {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+    }
     
-        #dashboard .table td:first-child {
-          width: 10%;
-        }
+    /* Modal Styling */
+    .modal-body pre {
+      margin: 0;
+      background: transparent;
+      border: none;
+      overflow: auto;
+    }
     
-        #dashboard .table td:nth-child(2) {
-          width: 10%;
-        }
+    /* Adjustments for Mobile */
+    @media (max-width: 576px) {
+      .d-flex {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
     
-        #dashboard .table td:nth-child(3) {
-          width: 55%;
-        }
+      .navbar {
+        height: 45px;
+      }
     
-        #dashboard .table td:nth-child(4) {
-          width: 15%;
-        }
+      .table {
+        font-size: 0.85rem;
+      }
     
-        #dashboard .table td:nth-child(5) {
-          width: 10%;
-        }
+      .tab-content {
+        padding: 0.3rem;
+      }
     
-        /* Responsive Table Adjustments */
-        @media (max-width: 768px) {
-          .table {
-            font-size: 0.85rem;
-          }
+      .btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+      }
     
-          #dashboard .table td:first-child {
-            width: 30%;
-          }
+      #imagePreviewContainer {
+        width: 60px;
+        height: 60px;
+      }
     
-          #dashboard .table td:nth-child(2),
-          #dashboard .table td:nth-child(3),
-          #dashboard .table td:nth-child(4),
-          #dashboard .table td:nth-child(5) {
-            width: 15%;
-          }
+      #uploadButton {
+        font-size: 0.8rem;
+      }
     
-          .tab-content {
-            padding: 0.5rem;
-          }
-        }
+      .material-btn-round {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+      }
+    }
     
-        @media (min-width: 768px) {
-          .table th, .table td {
-            padding: 1rem;
-          }
+    /* Adjustments for Landscape or Larger Screens */
+    @media (min-width: 576px) {
+      .tab-content {
+        width: 100%;
+      }
     
-          #dashboard .table td:nth-child(2) {
-            text-align: right;
-          }
-        }
+      .table {
+        font-size: calc(0.85rem + 0.5vw); /* Dynamic text scaling */
+      }
     
-        /* Navbar and Tab Responsiveness */
-        @media (max-width: 576px) {
-          .navbar {
-            height: 45px;
-          }
+      .table th, .table td {
+        padding: 0.75rem;
+      }
+    }
     
-          .navbar-brand img {
-            width: 20px;
-            height: 20px;
-          }
+    /* Adjustments for Dashboard */
+    #refreshDashboard {
+      font-size: 0.9rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 0.2rem;
+    }
     
-          .nav-tabs .nav-link {
-            padding: 0.2rem 0.5rem;
-            font-size: 0.8rem;
-          }
+    #refreshDashboard i {
+      font-size: 1rem;
+      margin-right: 0.2rem;
+    }
     
-          .tab-content {
-            padding: 0.5rem;
-          }
+    #refreshDashboard:hover {
+      background-color: #f1f1f1;
+      border-color: #ccc;
+    }
     
-          #uploadButton {
-            padding: 0.4rem 0.8rem;
-          }
+    /* Specific Icon Adjustments */
+    .button-container .material-btn-round.view {
+      color: #17a2b8; /* Teal for view icons */
+    }
     
-          #imagePreviewContainer {
-            width: 80px;
-            height: 80px;
-          }
+    .button-container .material-btn-round.edit {
+      color: #28a745; /* Green for edit icons */
+    }
     
-          .table th, .table td {
-            font-size: 0.85rem;
-            padding: 0.5rem;
-          }
-    
-          .table {
-            font-size: 0.75rem;
-            overflow-x: auto;
-          }
-        }
-    
-        /* Ensure tabs are always horizontal */
-        .nav-tabs {
-          display: flex;
-          flex-direction: row;
-          width: 100%;
-          padding: 0;
-          justify-content: center;
-        }
-    
-        .nav-tabs .nav-link {
-          padding: 0.5rem 1rem;
-          font-size: 1rem;
-        }
-        /* Button Container for 2x2 layout */
-        .button-container {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr); /* 2 columns */
-          justify-content: center; /* Center the buttons horizontally */
-          align-items: center; /* Center the buttons vertically */
-          margin: 0 auto; /* Center the grid in its container */
-        }
-
+    .button-container .material-btn-round.delete {
+      color: #dc3545; /* Red for delete icons */
+    }
     
 
   </style>
@@ -375,7 +342,7 @@
 
     <!-- Categories Section -->
     <div class="mb-3 text-center">
-      <label class="form-label fw-bold">Select</label>
+      <label class="form-label fw-bold">Select Categories:</label>
       <div class="form-check form-check-inline">
         <input class="form-check-input" type="checkbox" value="tax" id="categoryTax">
         <label class="form-check-label" for="categoryTax">Tax</label>
@@ -450,6 +417,7 @@
     <thead>
       <tr>
         <th>Date</th>
+        <th>Store</th>
         <th>Total</th>
         <th>Items</th>
         <th>Categories</th>
@@ -838,11 +806,8 @@ function startPolling(receiptId, taskId) {
               data.forEach((receipt, index) => {
                   newHtml += `
                       <tr id="receipt-${receipt.json_path.split('/').pop().split('.')[0]}">
-                          <td>
-                            <span class="receipt-date">${receipt.date || 'N/A'}</span>
-                            <br>
-                            <span class="receipt-store">${receipt.store || 'N/A'}</span>
-                          </td>
+                          <td>${receipt.date || 'N/A'}</td>
+                          <td>${receipt.store || 'N/A'}</td>
                           <td>${receipt.total || '0.0'}</td>
                           <td>${receipt.items || 'No Items Listed'}</td>
                           <td>${receipt.categories || 'None'}</td>

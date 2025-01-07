@@ -1,7 +1,7 @@
 # TO DO 
 # 1. Make app work for large numbers of receipts 
 
-
+On github at https://github.com/jmcconochie/receipt-manager-app
 
 # buildrun_docker.sh does what it says
 http://192.168.86.10:5000
