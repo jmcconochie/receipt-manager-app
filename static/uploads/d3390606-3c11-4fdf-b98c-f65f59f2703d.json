@@ -1,0 +1,57 @@
+{
+  "store": {
+    "name": "ALTRONICS",
+    "abn": "84177396871",
+    "phone": "1300 797 007",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "2140608",
+    "date": "21/12/2021"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "21/12/2021 10:29",
+    "team_member": "JC",
+    "payment_method": "Manual Card",
+    "approval_code": "",
+    "amount": 139.55,
+    "gst_included": 12.69
+  },
+  "items": [
+    {
+      "description": "SOCKT Q.C3.0 3.6A PD VOLTMETER",
+      "price": 34.95,
+      "gst_in_item": 3.18
+    },
+    {
+      "description": "VOLT & CURRENT METER PANEL MNT",
+      "price": 29.95,
+      "gst_in_item": 2.72
+    },
+    {
+      "description": "BATTERY LEAD ACID 12V12AH 4.8M",
+      "price": 56.95,
+      "gst_in_item": 5.18
+    },
+    {
+      "description": "SOCKT CIGARETTE PANEL MOUNT",
+      "price": 9.75,
+      "gst_in_item": 0.89
+    },
+    {
+      "description": "CCT BRKR SWITCH 250V 8A",
+      "price": 7.95,
+      "gst_in_item": 0.72
+    }
+  ],
+  "totals": {
+    "subtotal": 139.55,
+    "gst_included": 12.69,
+    "grand_total": 139.55
+  },
+  "notes": "The ABN was slightly different in the two scans, corrected to the one from the first scan. The date format is assumed to be dd/mm/yyyy.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T07:50:07.342090"
+}

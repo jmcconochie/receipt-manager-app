@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "Officeworks Belmont",
+    "abn": "36 004 763 526",
+    "phone": "(08) 6374 0400",
+    "address": "Belmont, WA, AU"
+  },
+  "tax_invoice": {
+    "invoice_number": "Q4 2022/23",
+    "date": "27/04/2023"
+  },
+  "transaction": {
+    "transaction_number": "69755510",
+    "date_time": "27/04/2023 13:58",
+    "team_member": "Grace",
+    "payment_method": "MASTERCARD",
+    "approval_code": "R51200",
+    "amount": 39.97,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "REALLY USEFUL 3L BOX CLEAR",
+      "price": 18.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "PK6 EZY STORAGE VALUE PACK 10L",
+      "price": 21.97,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 39.97,
+    "gst_included": 0.0,
+    "grand_total": 39.97
+  },
+  "notes": "Date format is in Australian format. GST is included in the total.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:08:45.456574"
+}

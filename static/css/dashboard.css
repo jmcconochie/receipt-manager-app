@@ -1,0 +1,59 @@
+/* dashboard.css */
+
+.tab-content {
+  padding: 1rem;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: .25rem;
+}
+
+.table th,
+.table td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.table th {
+  font-size: 0.9rem;
+  font-weight: 600;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.table td {
+  font-size: 0.85rem;
+}
+
+#dashboard .table td:nth-child(3) {
+  text-align: right;
+}
+
+#dashboard .complete-status {
+  font-size: 1.2em;
+  /* Adjust this value to make the X smaller */
+  vertical-align: middle;
+}
+
+/* Ensure action buttons are displayed horizontally */
+#dashboard .action-buttons {
+  display: flex;
+  /* Use flexbox for horizontal alignment */
+  justify-content: flex-start;
+  /* Align buttons to the left */
+  gap: 0.5rem;
+  /* Add space between buttons */
+}
+
+/* Style individual buttons for consistent size and spacing */
+#dashboard .action-buttons .action-button {
+  padding: 0.5rem;
+  /* Adjust button padding */
+  display: flex;
+  /* Center icon and text inside the button */
+  justify-content: center;
+  align-items: center;
+  border: none;
+  /* Optional: remove button border */
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 672 179",
+    "phone": "(08) 9373 4600",
+    "address": "Belmont WA"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "13/02/2022"
+  },
+  "transaction": {
+    "transaction_number": "2052",
+    "date_time": "13/02/2022 11:20:59",
+    "team_member": "R13",
+    "payment_method": "Cheque",
+    "approval_code": "",
+    "amount": 36.13,
+    "gst_included": 3.29
+  },
+  "items": [
+    {
+      "description": "Plywood BC",
+      "price": 21.3,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Screws Stitch GP Zenith 6-15X15 C3 PHL PBX100 CBZ7415",
+      "price": 8.28,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Tas Oak Dar 12X72HH 1.2H Select",
+      "price": 6.55,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 36.13,
+    "gst_included": 3.29,
+    "grand_total": 36.13
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "categories": [],
+  "complete": "complete",
+  "scanned_on": "2025-01-07T10:20:50.549666"
+}

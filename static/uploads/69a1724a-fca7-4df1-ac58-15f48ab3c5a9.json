@@ -15,7 +15,7 @@
     "team_member": "Assisted Checkout",
     "payment_method": "MASTERCARD",
     "approval_code": "001180692800",
-    "amount": 19.0,
+    "amount": 19,
     "gst_included": 1.73
   },
   "items": [
@@ -33,8 +33,9 @@
   "totals": {
     "subtotal": 17.54,
     "gst_included": 1.73,
-    "grand_total": 19.0
+    "grand_total": 19
   },
+  "complete": "complete",
   "notes": "Date format is in Australian format.",
   "categories": [],
   "scanned_on": "2025-01-06T11:53:23.830304"

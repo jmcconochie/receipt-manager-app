@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "JB Hi-Fi",
+    "abn": "37 093 114 286",
+    "phone": "08 9244 5300",
+    "address": "Unit 2, 501 Scarborough Beach Road, Osborne Park, WA, 6017"
+  },
+  "tax_invoice": {
+    "invoice_number": "PDAOPVZ5AX9",
+    "date": "12/11/2021"
+  },
+  "transaction": {
+    "transaction_number": "PDAOPVZ5AX9-28",
+    "date_time": "12/11/2021 14:45",
+    "team_member": "34816",
+    "payment_method": "Debit Card",
+    "approval_code": "207341",
+    "amount": 79.95,
+    "gst_included": 7.27
+  },
+  "items": [
+    {
+      "description": "CYGNETT - IPAD PRO 12.9\" 3/4/5 GEN BLACK",
+      "price": 79.95,
+      "gst_in_item": 7.27
+    }
+  ],
+  "totals": {
+    "subtotal": 79.95,
+    "gst_included": 7.27,
+    "grand_total": 79.95
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy based on Australian standards.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T07:02:54.605011"
+}

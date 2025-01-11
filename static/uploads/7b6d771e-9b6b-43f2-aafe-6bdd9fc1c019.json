@@ -1,0 +1,57 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 732 174",
+    "phone": "(06) 9373 4800",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "18/09/2021"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "18/09/2021",
+    "team_member": "",
+    "payment_method": "EFT",
+    "approval_code": "",
+    "amount": 130.02,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "Garden Stake Whites 6PK",
+      "price": 7.599,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Plant Tie Whites Group",
+      "price": 0,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Paver Hypave 444Y 400X400X400H Steel",
+      "price": 0,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Glove Insulating Lycra",
+      "price": 0,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Poly Irrigation Garden 1/2in Cap",
+      "price": 81.97,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 130.02,
+    "gst_included": 0,
+    "grand_total": 130.02
+  },
+  "notes": "Date not provided, assumed to be recent based on context. Some item prices are missing.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T11:04:27.162949"
+}

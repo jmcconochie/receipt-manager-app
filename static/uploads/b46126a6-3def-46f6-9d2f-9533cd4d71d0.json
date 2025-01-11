@@ -1,0 +1,57 @@
+{
+  "store": {
+    "name": "Stratco",
+    "abn": "77-008-836-833",
+    "phone": "1300155155",
+    "address": "Canningvale"
+  },
+  "tax_invoice": {
+    "invoice_number": "27/758560",
+    "date": "05/01/2019"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "05/01/2019 13:15",
+    "team_member": "",
+    "payment_method": "",
+    "approval_code": "",
+    "amount": 412.09,
+    "gst_included": 37.47
+  },
+  "items": [
+    {
+      "description": "STRATCO HM 6/SH SLID S/DR HMI PRIM",
+      "price": 320.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "HM SHED BOX SLID SGL/DR HM1 PRIMROSE",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "HANDI-MATE FLOORING KIT SHED-HM1",
+      "price": 67.11,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "HANDI-MATE FLOORING BOX (BOX-1)",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "SHELF SPACE SAVER",
+      "price": 24.98,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 412.09,
+    "gst_included": 37.47,
+    "grand_total": 412.09
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. Some item prices are listed as $0.00, which may need verification.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-09T03:18:11.467920"
+}

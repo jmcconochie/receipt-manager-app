@@ -1,0 +1,102 @@
+/* Main Edit Tab Container */
+#edit {
+  display: flex;
+  /* Use flexbox for layout */
+  flex-direction: column;
+  /* Stack children vertically */
+  height: 100vh;
+  /* Occupy full viewport height */
+  overflow: hidden;
+  /* Prevent scrollbars on the window */
+  padding: 10px;
+  /* Optional padding */
+  box-sizing: border-box;
+}
+
+/* Flex Layout for JSON and Image Viewer */
+#edit .d-flex {
+  display: flex;
+  /* Enable side-by-side layout */
+  gap: 10px;
+  /* Add spacing between editor and viewer */
+  flex: 1;
+  /* Allow the flexbox to stretch and take available height */
+  overflow: hidden;
+  /* Prevent scrollbars */
+  height: 100%;
+  align-items: stretch;
+}
+
+/* JSON Editor and Image Viewer Containers */
+#edit .json-editor-container,
+#edit .image-viewer-container {
+  display: flex;
+  flex-direction: column;
+  /* Stack content inside vertically */
+  flex: 1;
+  /* Both containers take equal width */
+  overflow: hidden;
+  min-height: 0;
+  /* Prevent flex overflow issues */
+}
+
+/* JSON Editor Styling */
+#jsonEditor {
+  flex: 1;
+  height: 100%;
+  /* Fill parent container */
+  resize: none;
+  /* Disable resizing */
+  font-family: "Courier New", monospace;
+  /* Monospace for better JSON readability */
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* Optional border for clarity */
+  box-sizing: border-box;
+  /* Ensure padding doesn’t affect height */
+}
+
+/* Image Viewer Styling */
+#imageViewerContainer {
+  display: flex;
+  justify-content: center;
+  /* Center image horizontally */
+  align-items: center;
+  /* Center image vertically */
+  height: 100%;
+  /* Fill parent container */
+  overflow: hidden;
+  /* Prevent extra scrollbars */
+  background-color: #f9f9f9;
+  /* Light background */
+  border: 1px solid #ddd;
+  /* Optional border */
+}
+
+#imageViewer {
+  max-width: 100%;
+  /* Ensure image fits horizontally */
+  max-height: 100%;
+  /* Ensure image fits vertically */
+  object-fit: contain;
+  /* Maintain aspect ratio */
+  user-select: none;
+  /* Prevent text selection */
+  -webkit-user-drag: none;
+  /* Prevent drag behavior in WebKit browsers */
+}
+
+/* Buttons Below the Editor and Viewer */
+#editReceiptForm .d-flex.justify-content-between {
+  height: auto;
+  /* Ensure buttons have correct size */
+  padding-top: 10px;
+  /* Add spacing from content above */
+}
+
+#editReceiptForm .btn {
+  flex: none;
+  /* Prevent buttons from stretching */
+  padding: 10px 20px;
+  /* Add some padding for clickability */
+}

@@ -1,0 +1,47 @@
+{
+  "store": {
+    "name": "Priceline Pharmacy",
+    "abn": "29 168 918 630",
+    "phone": "(08) 9271 314",
+    "address": "Shop 8, 376 Wellington Street, Perth 6000"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": ""
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "",
+    "payment_method": "DEBIT MASTERCARD",
+    "approval_code": "R79891",
+    "amount": 91.48,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "LORAZEPAM 2.5mg",
+      "price": 45.99,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "INZA TAB 500mg",
+      "price": 22.99,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "STILDEM TA 10mg",
+      "price": 22.5,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 91.48,
+    "gst_included": 0.0,
+    "grand_total": 91.48
+  },
+  "notes": "The date is not provided in the receipt. The address has a discrepancy in the shop number (376 vs 378).",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:29:16.313909"
+}

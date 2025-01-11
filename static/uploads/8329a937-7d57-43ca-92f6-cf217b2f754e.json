@@ -1,0 +1,52 @@
+{
+  "store": {
+    "name": "Woolworths",
+    "abn": "000 014 675",
+    "phone": "08 6318 9975",
+    "address": "4333 Victoria Park, 127 Shepperton Road"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "13/05/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "13/05/2023 11:42",
+    "team_member": "",
+    "payment_method": "EFT",
+    "approval_code": "005823",
+    "amount": 60.29,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "Lindt Lindor Assorted Cornet",
+      "price": 0,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Raffaello Ballotin 230g",
+      "price": 0,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Bouquet Something Special",
+      "price": 0,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Woolworths Paper Bag",
+      "price": 0,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 60.25,
+    "gst_included": 0,
+    "grand_total": 60.25
+  },
+  "notes": "Date inferred as 23/11/2023 based on context. Some item prices are missing.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:33:17.975812"
+}

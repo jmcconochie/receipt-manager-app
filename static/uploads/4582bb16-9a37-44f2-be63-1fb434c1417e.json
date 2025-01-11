@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "Bunnings",
+    "abn": "",
+    "phone": "",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "26/09/2020"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "26/09/2020",
+    "team_member": "",
+    "payment_method": "",
+    "approval_code": "",
+    "amount": 0,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "Axe Hart 660mm compact",
+      "price": 79.98,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Cloth tape",
+      "price": 5.98,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 85.96,
+    "gst_included": 0,
+    "grand_total": 85.96
+  },
+  "notes": "Date is assumed as 01/01/2023 due to lack of clarity. Items and totals are not clearly defined.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T09:27:20.131664"
+}

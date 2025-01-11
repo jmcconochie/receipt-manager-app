@@ -42,14 +42,9 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 # / and DATA GATHERING
 # --------------------------------------------------------------------
 
-@app.route("/", methods=["GET"])
+@app.route("/")
 def index():
-    """Main Web Page Root
-
-    Returns:
-        template: main web page
-    """
-    return render_template('index.html')
+    return render_template("index.html")
 
 
 def get_all_receipts():
@@ -77,9 +72,11 @@ def get_all_receipts():
                     'items': ', '.join([item.get('description', 'N/A') for item in data.get('items', [])]),
                     'category': data.get('notes', 'N/A'),
                     'image_path': None,
+                    'scanned_on': data.get('scanned_on', {}),
+                    'complete': data.get('complete', 'incomplete'),
                     'json_path': f'/static/uploads/{filename}'
                 }
-                print(receipt)
+                #print(receipt)
                 receipt['categories'] = data.get('categories', [])
 
                 # Ensure the date is valid
@@ -109,14 +106,9 @@ def get_all_receipts():
     return receipts
 
 
-#@app.route('/api/dashboard_data')
-#def dashboard_data():
-#    receipts = get_all_receipts()
-#    sorted_receipts = sorted(receipts, key=lambda x: x['date'], reverse=True)
-#    return jsonify(sorted_receipts)
 
 @app.route('/api/dashboard_data')
-def dashboard_data():
+def api_dashboard_data():
     receipts = get_all_receipts()
     
     def parse_date_or_default(date_str):
@@ -151,10 +143,29 @@ def dashboard_data():
 # UPLOAD
 # --------------------------------------------------------------------
 
-@app.route("/upload", methods=["POST"])
-def upload():
-    if "file" not in request.files:
-        return jsonify({"error": "No file part"}), 400
+@app.route("/api/upload", methods=["POST"])
+def api_upload():
+
+    if "file" not in request.files and not request.form.get('rescan_filename'):
+        return jsonify({"error": "No file part or rescan filename provided"}), 400
+
+    rescan_filename = request.form.get('rescan_filename')
+
+    # If rescan is requested, skip file upload and process the existing file
+    if rescan_filename:
+        file_path = os.path.join(app.config['UPLOAD_FOLDER'], rescan_filename)
+
+        # Check if the file exists
+        if not os.path.isfile(file_path):
+            return jsonify({"error": f"File {rescan_filename} does not exist."}), 404
+
+        # Queue the receipt processing task for rescan
+        task = process_receipt_task.delay(rescan_filename, request.form.get('categories'))
+        return jsonify({
+            "success": True,
+            "message": "Receipt rescanned successfully and will be processed in the background.",
+            "task_id": task.id
+        })
 
     file = request.files["file"]
     if file.filename == "":
@@ -191,16 +202,31 @@ def process_receipt_task(self, filename, categories):
 
         # Process image
         with Image.open(file_path) as img:
-            img = ImageOps.exif_transpose(img)
+            #img = ImageOps.exif_transpose(img)
 
             config = '--psm 1'
             ocr_text1 = pytesseract.image_to_string(img, lang='eng', config=config)
 
-            gray = img.convert("L")
+            #gray = img.convert("L")
             #bw = gray.point(lambda x: 0 if x < 128 else 255, '1')
-            gray.info['dpi'] = (300, 300)
-            config = '--psm 1'
-            ocr_text2 = pytesseract.image_to_string(gray, lang='eng', config=config)
+            #gray.info['dpi'] = (300, 300)
+            #config = '--psm 11'
+            #ocr_text2 = pytesseract.image_to_string(gray, lang='eng', config=config)
+            config = r'--psm 1 --oem 2 -c tessedit_write_images=true -c thresholding_method=1 -c thresholding_debug=1 -c thresholding_smooth_kernel_size=0.2'
+            ocr_text2 = pytesseract.image_to_string(img, lang='eng', config=config)
+
+            ocr_text1 = ocr_text1.replace("\\", "")
+            ocr_text2 = ocr_text2.replace("\\", "")
+
+
+            print("************************************")
+            print("filename")
+            print("************************************")
+            print("ocr_text1", ocr_text1)
+            print("************************************")
+            print("ocr_text2", ocr_text2)
+            print("************************************")
+
 
         # Parse receipt using OpenAI API
         parsed_json = chatgpt_parse_receipt(ocr_text1, ocr_text2)
@@ -234,11 +260,6 @@ def chatgpt_parse_receipt(ocr_text1, ocr_text2):
     Sends the OCR'd text to ChatGPT with instructions to return well-formed JSON.
     Uses the new openai.ChatCompletion object interface in openai>=1.0.0.
     """
-    print("===========1")
-    print(ocr_text1)
-    print("===========2")
-    print(ocr_text2)
-
     prompt = f"""
 You are a helpful assistant that reads receipt text and extracts key fields in valid JSON.
 The receipt image has been OCR'd twice with different settings.  The receipt text from both scans is given,
@@ -248,12 +269,15 @@ with the first scan text enclosed in triple parenthesis and the second scan text
 
 Instructions:
 1. Identify store name, ABN, address, phone, date, items, total, etc.
-2. Return ONLY valid JSON with the following structure (if something not found, leave blank or null):
-3. Make any obvious spelling corrections coming from the OCR of the receipt
-4. Make sure totals make sense.
-5. Check the date makes sense, usually it will be in Australian format, and if not make a best guess and put in the notes about that.
-6. Check for known vendors and correct and vendor name mispelling.
-7. Return all dates as dd/mm/yyyy
+2. Make any obvious spelling corrections coming from the OCR of the receipt
+3. Make sure totals make sense.
+4. Check the date makes sense, usually it will be in Australian format, and if not make a best guess and put in the notes about that.
+5. Check for known vendors and correct and vendor name mispelling.
+6. Return all dates as dd/mm/yyyy
+7. Mark the record complete if all the main fields are filled: store name, date, grand_total, item description. Use the complete field with either complete or incomplete.
+8. Add any observations or comments about the above checks in to the comment field.
+9. Make sure there are no invalid characters in the JSON values.
+10. Return ONLY valid JSON with the following structure (if something not found, leave blank or null):
 {{
   "store": {{
     "name": "",
@@ -286,7 +310,8 @@ Instructions:
     "gst_included": 0.0,
     "grand_total": 0.0
   }},
-  "notes": ""
+  "notes": "",
+  "complete": ""
 }}
 """
     raw_reply = ""
@@ -315,7 +340,7 @@ Instructions:
 
         # .. attempt to parse JSON
         data = json.loads(raw_reply)
-        print(data)
+        #print(data)
         return data
 
     except Exception as e:
@@ -323,8 +348,8 @@ Instructions:
         return {"error": str(e), "raw_reply": raw_reply}
 
 
-@app.route('/task_status/<task_id>', methods=['GET'])
-def task_status(task_id):
+@app.route('/api/task_status/<task_id>', methods=['GET'])
+def api_task_status(task_id):
     """Gets status of receipt processing tasks
 
     Args:
@@ -351,8 +376,8 @@ def task_status(task_id):
 # SEARCH
 # --------------------------------------------------------------------
 
-@app.route("/search", methods=["GET"])
-def search():
+@app.route("/api/search", methods=["GET"])
+def api_search():
     """runs search with q=search_string and category=???
 
     Returns:
@@ -401,8 +426,8 @@ def search():
 # DASHBOARD
 # --------------------------------------------------------------------
 
-@app.route('/export/zip')
-def export_zip():
+@app.route('/api/export/zip')
+def api_export_zip():
     """
     Export the entire dataset as a ZIP file with a local HTML index.
     """
@@ -512,8 +537,8 @@ def export_zip():
 
 
 
-@app.route('/export/csv')
-def export_csv():
+@app.route('/api/export/csv')
+def api_export_csv():
     """
     Export all receipts as a CSV file with relevant fields.
     """
@@ -581,8 +606,8 @@ def export_csv():
 
 
 
-@app.route("/delete_receipt", methods=["POST"])
-def delete_receipt():
+@app.route("/api/delete_receipt", methods=["POST"])
+def api_delete_receipt():
     """
     Delete both the JSON and image files associated with a receipt.
     """
@@ -614,8 +639,8 @@ def delete_receipt():
 
 
 
-@app.route('/update_receipt', methods=['POST'])
-def update_receipt():
+@app.route('/api/update_receipt', methods=['POST'])
+def api_update_receipt():
     """
     Update the JSON data of a receipt file.
     Receives JSON data via POST and updates the file.

@@ -22,12 +22,12 @@
     {
       "description": "Sonict Electric",
       "price": 129.0,
-      "gst_in_item": 11.73
+      "gst_in_item": 0.0
     },
     {
-      "description": "Quencher 2.0 TUND",
+      "description": "Quencher 2.0 Tund",
       "price": 60.0,
-      "gst_in_item": 5.45
+      "gst_in_item": 0.0
     }
   ],
   "totals": {
@@ -35,6 +35,8 @@
     "gst_included": 19.0,
     "grand_total": 209.0
   },
-  "notes": "Date format is assumed to be dd/mm/yyyy.",
-  "categories": []
+  "notes": "Date format is assumed to be dd/mm/yyyy. The total amounts and GST calculations are consistent.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T02:00:07.585848"
 }

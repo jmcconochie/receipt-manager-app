@@ -1,0 +1,47 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 672 179",
+    "phone": "(08) 9373 4800",
+    "address": "Belmont WA"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "10/04/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "10/04/2023 02:41:16",
+    "team_member": "",
+    "payment_method": "EFT",
+    "approval_code": "534970-940",
+    "amount": 103.39,
+    "gst_included": 9.4
+  },
+  "items": [
+    {
+      "description": "Extension Pole Non-arch",
+      "price": 30.85,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Powerfeed Lawn Top Dress Mix",
+      "price": 55.68,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Seasol Lawn Top Dress",
+      "price": 16.86,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 103.39,
+    "gst_included": 9.4,
+    "grand_total": 103.39
+  },
+  "notes": "Date format is dd/mm/yyyy. GST included in the total is consistent with the subtotal.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:09:45.211178"
+}

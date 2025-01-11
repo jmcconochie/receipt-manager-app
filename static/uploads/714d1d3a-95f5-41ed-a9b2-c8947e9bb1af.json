@@ -1,0 +1,52 @@
+{
+  "store": {
+    "name": "AST VICTOR",
+    "abn": "26 008 672 178",
+    "phone": "(06) 6250 4600",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "20/02/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "20/02/2023 11:14:10",
+    "team_member": "",
+    "payment_method": "CREDIT",
+    "approval_code": "",
+    "amount": 213.45,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "BASIN MIXER GLIDE METHVEN 6L/HIN CH 03-9708H",
+      "price": 169.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "SANDPAPER ROLL FLEXOVIT 180 GRIT NO CLOG",
+      "price": 14.85,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "SANDPAPER ROLL FLEXOVIT 80 GRIT NO CLOG",
+      "price": 14.85,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "SANDPAPER ROLL FLEXOVIT 40 GRIT TIMBER",
+      "price": 14.74,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 213.45,
+    "gst_included": 0.0,
+    "grand_total": 213.45
+  },
+  "notes": "Date format assumed to be dd/mm/yyyy. GST included in total.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T09:25:57.095806"
+}

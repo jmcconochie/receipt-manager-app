@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Nedia Pty Ltd",
+    "abn": "",
+    "phone": "",
+    "address": "Suite 30 / 4 Ventnor Avenue, West Perth, WA 6005"
+  },
+  "tax_invoice": {
+    "invoice_number": "HSS4285315042412194135",
+    "date": "15/04/2024"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "15/04/2024 10:18",
+    "team_member": "",
+    "payment_method": "",
+    "approval_code": "",
+    "amount": 295.0,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "Initial Consultation",
+      "price": 295.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 295.0,
+    "gst_included": 0.0,
+    "grand_total": 295.0
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. GST details are unclear.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:19:44.063660"
+}

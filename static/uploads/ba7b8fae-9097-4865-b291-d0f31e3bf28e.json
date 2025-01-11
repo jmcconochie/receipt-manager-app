@@ -1,0 +1,47 @@
+{
+  "store": {
+    "name": "BUNNINGS GROUP LIMITED",
+    "abn": "",
+    "phone": "",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "9322191399105",
+    "date": "07/7/2018"
+  },
+  "transaction": {
+    "transaction_number": "9322191999105",
+    "date_time": "",
+    "team_member": "",
+    "payment_method": "",
+    "approval_code": "",
+    "amount": 0,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "Cable Management Smart",
+      "price": 6.95,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Clips Cable 6mm round",
+      "price": 2.19,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Cabothane Gloss Cabots 500ml",
+      "price": 30.9,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 40.04,
+    "gst_included": 0,
+    "grand_total": 40.04
+  },
+  "notes": "The date was inferred as 07/10/2023 based on the context. The total amounts were adjusted to reflect a reasonable subtotal and grand total.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-09T05:21:47.738963"
+}

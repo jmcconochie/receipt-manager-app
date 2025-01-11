@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "BOB JANE T-MART",
+    "abn": "12 701 070 631",
+    "phone": "08 9361 9866",
+    "address": "CNR HARPER ST & SHEPPERTON RD, VICTORIA PARK 6100"
+  },
+  "tax_invoice": {
+    "invoice_number": "181138",
+    "date": "08/06/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "08/06/2022 15:04",
+    "team_member": "Ash Bannam",
+    "payment_method": "EFTPOS",
+    "approval_code": "",
+    "amount": 496.0,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "BOB JANE 215/60R16 95V ALL-ROUNDER PLUS WITH SILICA",
+      "price": 536.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "BJ ALLROUNDER $40 CASHBACK",
+      "price": -40.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 496.0,
+    "gst_included": 0.0,
+    "grand_total": 496.0
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. GST details are not provided.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T11:00:42.997083"
+}

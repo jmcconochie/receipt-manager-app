@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Dulux",
+    "abn": "84 16 008 613",
+    "phone": "(08) 1471 000 30",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "9300.154",
+    "date": "20/10/2023"
+  },
+  "transaction": {
+    "transaction_number": "SN08115",
+    "date_time": "20/10/2023 00:30",
+    "team_member": "",
+    "payment_method": "MasterCard",
+    "approval_code": "",
+    "amount": 56.9,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "Dulux",
+      "price": 56.9,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 56.9,
+    "gst_included": 0.0,
+    "grand_total": 56.9
+  },
+  "notes": "Date inferred from context, assumed to be 20/10/2023. GST is not applicable as indicated.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T04:19:15.110810"
+}

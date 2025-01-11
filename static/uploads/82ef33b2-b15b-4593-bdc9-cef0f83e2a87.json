@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 672 179",
+    "phone": "(06) 9373 4600",
+    "address": "598 Put Horthcote, A1CH Grey Irondale Square"
+  },
+  "tax_invoice": {
+    "invoice_number": "0054767",
+    "date": "02/10/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "",
+    "payment_method": "",
+    "approval_code": "",
+    "amount": 0.0,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "Premium Potting Mix",
+      "price": 6.9,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Moisture Mulch",
+      "price": 30.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 36.9,
+    "gst_included": 0.0,
+    "grand_total": 36.9
+  },
+  "notes": "Date format assumed as dd/mm/yyyy. Some OCR errors corrected.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:09:57.068138"
+}

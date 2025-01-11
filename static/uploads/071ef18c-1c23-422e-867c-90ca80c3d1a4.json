@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Bunnings",
+    "abn": "",
+    "phone": "",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "17/11/2024"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "01:23:35",
+    "team_member": "",
+    "payment_method": "EFT",
+    "approval_code": "",
+    "amount": 146.0,
+    "gst_included": 13.27
+  },
+  "items": [
+    {
+      "description": "Portable Colour Lamp B/Togth",
+      "price": 146.0,
+      "gst_in_item": 13.27
+    }
+  ],
+  "totals": {
+    "subtotal": 146.0,
+    "gst_included": 13.27,
+    "grand_total": 146.0
+  },
+  "notes": "Date format assumed to be dd/mm/yyyy. GST included in total.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:33:21.383030"
+}

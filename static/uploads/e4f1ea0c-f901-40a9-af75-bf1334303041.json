@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "Toolkit Depot",
+    "abn": "",
+    "phone": "08 8475 3000",
+    "address": "228 Alexander Road, Belmont WA 6104"
+  },
+  "tax_invoice": {
+    "invoice_number": "09-03-0000288%",
+    "date": "11/08/2022"
+  },
+  "transaction": {
+    "transaction_number": "09-03-00002665",
+    "date_time": "11/08/2022 1:31:48 PM",
+    "team_member": "381",
+    "payment_method": "Cash",
+    "approval_code": "",
+    "amount": 39.0,
+    "gst_included": 3.54
+  },
+  "items": [
+    {
+      "description": "Action Impact Adapter 1/2\"F x 3/8\"M SB",
+      "price": 12.0,
+      "gst_in_item": 1.09
+    },
+    {
+      "description": "Action Impact Socket 1/2\"Dr x 30mm 6Pt",
+      "price": 27.0,
+      "gst_in_item": 2.45
+    }
+  ],
+  "totals": {
+    "subtotal": 39.0,
+    "gst_included": 3.54,
+    "grand_total": 39.0
+  },
+  "notes": "The date format is assumed to be dd/mm/yyyy. The store name was corrected from 'toolkitdepot' to 'Toolkit Depot'.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T11:01:14.343551"
+}

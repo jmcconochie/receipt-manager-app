@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Metro Jurien Bay",
+    "abn": "56 629 320 181",
+    "phone": "08 96124308",
+    "address": "74 Bashford Street, Jurien Bay, WA 6516"
+  },
+  "tax_invoice": {
+    "invoice_number": "222000038992",
+    "date": "11/07/2020"
+  },
+  "transaction": {
+    "transaction_number": "2220000389972",
+    "date_time": "11/07/2020 15:16:41",
+    "team_member": "User 999",
+    "payment_method": "EFTPOS",
+    "approval_code": "",
+    "amount": 48.35,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "DIESEL",
+      "price": 48.35,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 48.35,
+    "gst_included": 0.0,
+    "grand_total": 48.35
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. ABN corrected from OCR.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T09:31:25.531422"
+}

@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 672 179",
+    "phone": "(08) 6350 5600",
+    "address": "Cannington"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "21/06/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "21/06/2022 11:46:00",
+    "team_member": "",
+    "payment_method": "EFT",
+    "approval_code": "",
+    "amount": 14.0,
+    "gst_included": 1.27
+  },
+  "items": [
+    {
+      "description": "Shower Hose Double Lucky Stainless Steel",
+      "price": 14.0,
+      "gst_in_item": 1.27
+    }
+  ],
+  "totals": {
+    "subtotal": 14.0,
+    "gst_included": 1.27,
+    "grand_total": 14.0
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. Some OCR errors corrected.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T11:00:20.552426"
+}

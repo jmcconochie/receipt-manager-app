@@ -6,14 +6,14 @@
     "address": "111 Great Eastern Highway"
   },
   "tax_invoice": {
-    "invoice_number": "",
+    "invoice_number": "<K<K",
     "date": "12/12/2024"
   },
   "transaction": {
-    "transaction_number": "05553300",
+    "transaction_number": "22431",
     "date_time": "12/12/2024 10:31:17",
-    "team_member": "8311",
-    "payment_method": "MASTERCARD",
+    "team_member": "83119",
+    "payment_method": "Debit Mastercard",
     "approval_code": "R92560",
     "amount": 88.12,
     "gst_included": 8.01
@@ -30,7 +30,8 @@
     "gst_included": 8.01,
     "grand_total": 88.12
   },
-  "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "notes": "Date format is assumed to be dd/mm/yyyy. The subtotal is calculated as grand_total - gst_included.",
+  "complete": "complete",
   "categories": [],
-  "scanned_on": "2025-01-06T11:49:11.292931"
+  "scanned_on": "2025-01-11T04:21:00.131832"
 }

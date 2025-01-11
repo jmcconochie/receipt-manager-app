@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Gibson Benness Industries Pty Ltd",
+    "abn": "72 008 680 411",
+    "phone": "0894780444",
+    "address": "H/O 78 Mallard Way, Cannington 6107, WA, Australia"
+  },
+  "tax_invoice": {
+    "invoice_number": "GBIP-GBI-61-351650",
+    "date": "19/12/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "PCJ",
+    "payment_method": "Cash",
+    "approval_code": "",
+    "amount": 219.44,
+    "gst_included": 19.95
+  },
+  "items": [
+    {
+      "description": "KA 4532/600 CHROME S/CLOSE SIDE MOUNT (10)",
+      "price": 199.49,
+      "gst_in_item": 19.95
+    }
+  ],
+  "totals": {
+    "subtotal": 199.49,
+    "gst_included": 19.95,
+    "grand_total": 219.44
+  },
+  "notes": "The date format is in Australian format. All totals are consistent.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T09:19:00.616975"
+}

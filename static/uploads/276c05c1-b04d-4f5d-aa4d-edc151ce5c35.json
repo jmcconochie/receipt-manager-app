@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Arrow Computers",
+    "abn": "",
+    "phone": "(08) 9208 9233",
+    "address": "5/1505 Albany Hwy, Cannington, Western Australia 6107"
+  },
+  "tax_invoice": {
+    "invoice_number": "INV/2022/1045",
+    "date": "24/02/2022"
+  },
+  "transaction": {
+    "transaction_number": "BNK2/2022/0814",
+    "date_time": "24/02/2022",
+    "team_member": "Dipesh Shakya",
+    "payment_method": "Credit Card",
+    "approval_code": "",
+    "amount": 977.0,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "HP Raverb G2 Virtual Reality Headset",
+      "price": 977.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 977.0,
+    "gst_included": 0.0,
+    "grand_total": 977.0
+  },
+  "notes": "Date format is in Australian format. GST included is assumed to be 0.0 as not specified.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:08:05.202750"
+}

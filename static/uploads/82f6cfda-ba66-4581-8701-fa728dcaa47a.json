@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "Altronics",
+    "abn": "64177396671",
+    "phone": "1300 797 007",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "2347992",
+    "date": "03/01/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "03/01/2023",
+    "team_member": "AD",
+    "payment_method": "Manual Card",
+    "approval_code": "",
+    "amount": 73.45,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "BME280 Atmos Sensor",
+      "price": 40.6,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Board with Camera",
+      "price": 32.95,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 73.55,
+    "gst_included": 0,
+    "grand_total": 73.45
+  },
+  "notes": "Date not found in the receipt. GST included is not specified but assumed to be 0.0 based on the receipt text.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:28:34.183661"
+}

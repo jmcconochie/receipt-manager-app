@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Victoria Park",
+    "abn": "64 085 395 124",
+    "phone": "08 93618422",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "25/01/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "25/01/2022 17:27",
+    "team_member": "AMY",
+    "payment_method": "EFTPOS",
+    "approval_code": "",
+    "amount": 51.99,
+    "gst_included": 4.73
+  },
+  "items": [
+    {
+      "description": "A-FREEZE/ A-BOIL 6L PREMIX RED NULON",
+      "price": 51.99,
+      "gst_in_item": 4.73
+    }
+  ],
+  "totals": {
+    "subtotal": 51.99,
+    "gst_included": 4.73,
+    "grand_total": 51.99
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. GST included is consistent with the total.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:09:01.946926"
+}

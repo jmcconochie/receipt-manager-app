@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "FRONLCS",
+    "abn": "84177336871",
+    "phone": "1300 797 007",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "04/04/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "04/04/2022 09:28",
+    "team_member": "SV",
+    "payment_method": "",
+    "approval_code": "",
+    "amount": 49.8,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "THERMOMETER",
+      "price": 32.85,
+      "gst_in_item": 0
+    },
+    {
+      "description": "BOX-HO3G1 WITH CLEAR LID",
+      "price": 16.95,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 49.8,
+    "gst_included": 0,
+    "grand_total": 49.8
+  },
+  "notes": "The subtotal calculation appears to be incorrect; it should be $49.81 based on item prices. The grand total is $49.80, which is consistent with the subtotal minus any potential discounts or adjustments. JdM fixed",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:07:32.935045"
+}

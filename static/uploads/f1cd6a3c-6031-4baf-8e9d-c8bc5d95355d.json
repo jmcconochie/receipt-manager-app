@@ -1,0 +1,47 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 672 119",
+    "phone": "(08) 9373 4800",
+    "address": "Belmont WA"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "03/10/2021"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "03/10/2021 02:43:40",
+    "team_member": "",
+    "payment_method": "EFT",
+    "approval_code": "",
+    "amount": 180.78,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "Vacuum Wet Dry Corded Ryobi",
+      "price": 119.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Plant - Coleus",
+      "price": 1.1,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Plant - Nephrolepis",
+      "price": 1.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 180.78,
+    "gst_included": 0.0,
+    "grand_total": 180.78
+  },
+  "notes": "Date format is in Australian format. Some items may have been misread due to OCR errors.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:09:44.364909"
+}

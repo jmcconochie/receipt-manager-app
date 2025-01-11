@@ -1,0 +1,52 @@
+{
+  "store": {
+    "name": "Totally Workwear",
+    "abn": "",
+    "phone": "08 9478 6006",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "BM84875",
+    "date": "02/11/2021"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "MIKAYLA",
+    "payment_method": "EFT",
+    "approval_code": "",
+    "amount": 534.8,
+    "gst_included": 48.62
+  },
+  "items": [
+    {
+      "description": "STEEL BLUE ARGYLE ZIP TPU BC & BLACK",
+      "price": 195.41,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "STEEL BLUE PARKES ZIP LADIES TPU 9 BLACK",
+      "price": 163.59,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "KING GEE WC2 REF SPL SHIRT M ORANGE/NAVY",
+      "price": 63.59,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "KING GEE WC2 WMN SPL LS SHIRT 10 YELLOW / NAVY",
+      "price": 63.59,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 486.18,
+    "gst_included": 48.62,
+    "grand_total": 534.8
+  },
+  "notes": "Date format is in Australian format. All items and totals are consistent.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T07:03:00.102168"
+}

@@ -1,0 +1,41 @@
+/* upload.css */
+
+/* Tab Content */
+.tab-content {
+  padding: 1rem;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: .25rem;
+  height: auto;
+  /*overflow-y: auto; /* Ensure content scrolls */
+}
+
+/* Table Styling */
+.table {
+  width: 100%;
+  table-layout: auto;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.table th {
+  font-size: 0.9rem;
+  font-weight: 600;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.table td {
+  font-size: 0.85rem;
+}
+
+/* Table Column Styling */
+#dashboard .table td:nth-child(3) {
+  text-align: right;
+}

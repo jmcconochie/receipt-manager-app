@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 672 179",
+    "phone": "(08) 6350 5600",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "04/10/2018"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "04/10/2018 04:10:31",
+    "team_member": "",
+    "payment_method": "EFT",
+    "approval_code": "",
+    "amount": 0,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "Drill Bit Multi Kango",
+      "price": 6.4,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Drill Bit Masonry Kango",
+      "price": 4.93,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 0,
+    "gst_included": 0,
+    "grand_total": 11.41
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. Item prices and totals are not clearly extracted. JdM corrected",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T11:05:00.892780"
+}

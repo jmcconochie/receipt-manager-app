@@ -1,0 +1,52 @@
+{
+  "store": {
+    "name": "Bunnings",
+    "abn": "26 008 672 179",
+    "phone": "2104 0201",
+    "address": "MONT WA"
+  },
+  "tax_invoice": {
+    "invoice_number": "RGANISER THCTIX",
+    "date": "21/04/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "",
+    "payment_method": "Credit Card",
+    "approval_code": "534970-940",
+    "amount": 59.92,
+    "gst_included": 5.45
+  },
+  "items": [
+    {
+      "description": "16 Inch Thin Organiser",
+      "price": 14.98,
+      "gst_in_item": 1.36
+    },
+    {
+      "description": "16 Inch Thin Organiser",
+      "price": 14.98,
+      "gst_in_item": 1.36
+    },
+    {
+      "description": "16 Inch Thin Organiser",
+      "price": 14.98,
+      "gst_in_item": 1.36
+    },
+    {
+      "description": "16 Inch Thin Organiser",
+      "price": 14.98,
+      "gst_in_item": 1.36
+    }
+  ],
+  "totals": {
+    "subtotal": 59.92,
+    "gst_included": 5.45,
+    "grand_total": 59.92
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. The invoice number appears to be misread.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:08:51.138993"
+}

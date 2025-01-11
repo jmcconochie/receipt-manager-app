@@ -2,7 +2,7 @@
   "store": {
     "name": "Kmart",
     "abn": "73 004 700 485",
-    "phone": "08 6330 3000",
+    "phone": "08 6330 8300",
     "address": "Victoria Park, WA, AU"
   },
   "tax_invoice": {
@@ -10,13 +10,13 @@
     "date": "13/12/2024"
   },
   "transaction": {
-    "transaction_number": "60133345 K27892",
+    "transaction_number": "",
     "date_time": "13/12/2024 12:14",
     "team_member": "Kumar",
-    "payment_method": "Mastercard",
+    "payment_method": "Debit Mastercard",
     "approval_code": "R541/71",
     "amount": 234.95,
-    "gst_included": 0.0
+    "gst_in_item": 0.0
   },
   "items": [
     {
@@ -30,7 +30,8 @@
     "gst_included": 0.0,
     "grand_total": 234.95
   },
-  "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "notes": "The date format is assumed to be dd/mm/yyyy. The total amount and item price are consistent.",
+  "complete": "complete",
   "categories": [],
-  "scanned_on": "2025-01-06T11:49:51.527904"
+  "scanned_on": "2025-01-10T23:38:55.597839"
 }

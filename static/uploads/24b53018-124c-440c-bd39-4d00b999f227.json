@@ -1,6 +1,6 @@
 {
   "store": {
-    "name": "endota",
+    "name": "endota Carousel",
     "abn": "94621135706",
     "phone": "0861461128",
     "address": "Westfield Carousel Shopping Centre Shop 1234, Albany Highway"
@@ -13,7 +13,7 @@
     "transaction_number": "RCARR11703",
     "date_time": "23/12/2024 10:05 AM",
     "team_member": "Jelena Neskovic",
-    "payment_method": "EFTPOS",
+    "payment_method": "Card",
     "approval_code": "",
     "amount": 125.0,
     "gst_included": 0.0
@@ -30,8 +30,8 @@
     "gst_included": 0.0,
     "grand_total": 125.0
   },
-  "notes": "The date format is assumed to be DD/MM/YYYY.",
-  "categories": [
-    "warranty"
-  ]
+  "notes": "The date format is assumed to be dd/mm/yyyy. The invoice number and receipt number were extracted from the first scan, as the second scan had discrepancies.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-10T23:44:20.158456"
 }

@@ -1,0 +1,67 @@
+{
+  "store": {
+    "name": "ALTRONICS",
+    "abn": "64177396671",
+    "phone": "1300797007",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "2204492",
+    "date": "19/04/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "19/04/2022 14:07",
+    "team_member": "FS",
+    "payment_method": "Manual Card",
+    "approval_code": "",
+    "amount": 78.05,
+    "gst_included": 7.09
+  },
+  "items": [
+    {
+      "description": "CABLE GLAND PG7 BLACK(3-6.5MM)",
+      "price": 8.7,
+      "gst_in_item": 0.79
+    },
+    {
+      "description": "CABLE GLAND EG9/PGY BLACK",
+      "price": 3.1,
+      "gst_in_item": 0.28
+    },
+    {
+      "description": "MAINS PLUG 240V 3P CLR HPM",
+      "price": 8.25,
+      "gst_in_item": 0.75
+    },
+    {
+      "description": "BOX SEALED ABS 165X125X75MM",
+      "price": 34.5,
+      "gst_in_item": 3.14
+    },
+    {
+      "description": "BASE PLATE SUIT H0308 / H0328",
+      "price": 7.2,
+      "gst_in_item": 0.65
+    },
+    {
+      "description": "SKT BOXED HOR PCB SMM 2W",
+      "price": 1.8,
+      "gst_in_item": 0.16
+    },
+    {
+      "description": "TERML BLOCK 36 WAY PC MOUNT",
+      "price": 14.5,
+      "gst_in_item": 1.32
+    }
+  ],
+  "totals": {
+    "subtotal": 70.96,
+    "gst_included": 7.09,
+    "grand_total": 78.05
+  },
+  "notes": "Date format is in Australian format. All fields are filled correctly.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:05:07.809135"
+}

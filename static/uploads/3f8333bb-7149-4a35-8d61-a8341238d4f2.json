@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Victoria Park Post Office",
+    "abn": "26 864 06",
+    "phone": "",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "06/02/2023"
+  },
+  "transaction": {
+    "transaction_number": "21636",
+    "date_time": "06/02/2023 02:22:25",
+    "team_member": "",
+    "payment_method": "EFTPOS",
+    "approval_code": "00",
+    "amount": 13.3,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "POST supplied, price includes GST",
+      "price": 13.3,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 13.3,
+    "gst_included": 0.0,
+    "grand_total": 13.3
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. GST on POST is taxable supply.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T05:32:35.667569"
+}

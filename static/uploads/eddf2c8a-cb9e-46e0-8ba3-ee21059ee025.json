@@ -1,0 +1,47 @@
+{
+  "store": {
+    "name": "JB Hi-Fi",
+    "abn": "37 093 114 286",
+    "phone": "08 6229 4600",
+    "address": "1490 Albany Highway, Cannington, WA, 6107"
+  },
+  "tax_invoice": {
+    "invoice_number": "PDAX30PK38Y",
+    "date": "13/11/2022"
+  },
+  "transaction": {
+    "transaction_number": "PDAX30PK38Y-29",
+    "date_time": "13/11/2022 12:44",
+    "team_member": "52494",
+    "payment_method": "Mastercard",
+    "approval_code": "R09049",
+    "amount": 243.0,
+    "gst_included": 22.09
+  },
+  "items": [
+    {
+      "description": "Eufy Security Cam Indoor 2K Pan & Tilt",
+      "price": 198.0,
+      "gst_in_item": 18.0
+    },
+    {
+      "description": "Sandisk - 32 Micro SDHC Ultra Plus",
+      "price": 26.0,
+      "gst_in_item": 2.36
+    },
+    {
+      "description": "Jackson - DBL Adaptor Surge Vertical",
+      "price": 19.0,
+      "gst_in_item": 1.73
+    }
+  ],
+  "totals": {
+    "subtotal": 243.0,
+    "gst_included": 22.09,
+    "grand_total": 243.0
+  },
+  "notes": "Date format is in Australian format. All fields are filled correctly.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:25:46.579246"
+}

@@ -1,0 +1,47 @@
+{
+  "store": {
+    "name": "Officeworks",
+    "abn": "36 004 763 526",
+    "phone": "(03) 9473 6000",
+    "address": "East Victoria Park, WA, AU"
+  },
+  "tax_invoice": {
+    "invoice_number": "U3 2024/26",
+    "date": "01/01/2025"
+  },
+  "transaction": {
+    "transaction_number": "001413016001",
+    "date_time": "01/01/2025",
+    "team_member": "",
+    "payment_method": "EFTPOS",
+    "approval_code": "0001",
+    "amount": 17.97,
+    "gst_included": 1.63
+  },
+  "items": [
+    {
+      "description": "3M MAG41 920",
+      "price": 12.98,
+      "gst_in_item": 1.18
+    },
+    {
+      "description": "4PK SCOTCH MAGIC TAPE BX 19MM 20M",
+      "price": 4.99,
+      "gst_in_item": 0.45
+    },
+    {
+      "description": "PK80 OTTO BR PUSH PINS",
+      "price": 7.97,
+      "gst_in_item": 0.73
+    }
+  ],
+  "totals": {
+    "subtotal": 17.97,
+    "gst_included": 1.63,
+    "grand_total": 17.97
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. GST included in total is consistent with item prices.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T01:56:07.123664"
+}

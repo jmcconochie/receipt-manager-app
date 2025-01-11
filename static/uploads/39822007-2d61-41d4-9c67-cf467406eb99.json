@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "KMART",
+    "abn": "73 004 700 485",
+    "phone": "08 6330 8300",
+    "address": "East Victoria Park - WA AU"
+  },
+  "tax_invoice": {
+    "invoice_number": "60133345",
+    "date": "04/04/2023"
+  },
+  "transaction": {
+    "transaction_number": "K27803",
+    "date_time": "04/04/2023 16:56",
+    "team_member": "RICHARD",
+    "payment_method": "MASTERCARD",
+    "approval_code": "R80528",
+    "amount": 32.0,
+    "gst_included": 2.9
+  },
+  "items": [
+    {
+      "description": "Scorched Almond",
+      "price": 7.0,
+      "gst_in_item": 0.64
+    },
+    {
+      "description": "Fusion Cartridge",
+      "price": 25.0,
+      "gst_in_item": 2.27
+    }
+  ],
+  "totals": {
+    "subtotal": 32.0,
+    "gst_included": 2.9,
+    "grand_total": 32.0
+  },
+  "notes": "Date format is in Australian format. All fields are filled correctly.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:10:04.031524"
+}

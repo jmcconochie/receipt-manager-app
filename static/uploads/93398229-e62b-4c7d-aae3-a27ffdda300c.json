@@ -1,0 +1,57 @@
+{
+  "store": {
+    "name": "Bunnings",
+    "abn": "26 008 672 79",
+    "phone": "(08) 6350 5600",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "0390220",
+    "date": "06/03/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "06/03/2023 11:57:03",
+    "team_member": "",
+    "payment_method": "CREDIT",
+    "approval_code": "534970-940",
+    "amount": 116.41,
+    "gst_included": 10.56
+  },
+  "items": [
+    {
+      "description": "FORMPLY F17 700K 17HH",
+      "price": 70.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "SCREWS TIMB 717 USK ZENITH 10-12X50 PHL PBX50 CBA7650",
+      "price": 17.28,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "DRAWER SLIDE PAIR GOLIATH H00X46HNH STANDARD DS500STD",
+      "price": 14.9,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "BOLTS NUT HEX HDG MET ZENITH HEXZ5 BX25 BGHO08ZS",
+      "price": 10.35,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "WASHERS GALV METRIC M6 ER WGFOB200",
+      "price": 3.8,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 116.41,
+    "gst_included": 10.56,
+    "grand_total": 116.41
+  },
+  "notes": "Date format is in Australian format. All items and totals are consistent.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T05:38:09.018514"
+}

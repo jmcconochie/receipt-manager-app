@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Myer",
+    "abn": "83 004 143 239",
+    "phone": "",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "12/06/2022"
+  },
+  "transaction": {
+    "transaction_number": "42 101 3750",
+    "date_time": "12/06/2022 14:01:12",
+    "team_member": "Katie",
+    "payment_method": "Mastercard",
+    "approval_code": "R008B2",
+    "amount": 153.0,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "Narciso Rodriguez For Her EDP 50ml",
+      "price": 153.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 153.0,
+    "gst_included": 0.0,
+    "grand_total": 153.0
+  },
+  "notes": "Date format is in Australian format. All fields are filled correctly.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T11:00:41.960968"
+}

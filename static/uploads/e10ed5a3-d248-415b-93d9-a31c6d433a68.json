@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Bunnings Group",
+    "abn": "26 008 672 179",
+    "phone": "(08) 6350 5600",
+    "address": "Cannington"
+  },
+  "tax_invoice": {
+    "invoice_number": "6611138",
+    "date": "20/01/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "20/01/2022 12:47:00",
+    "team_member": "",
+    "payment_method": "Card",
+    "approval_code": "507732-424",
+    "amount": 32.12,
+    "gst_included": 2.92
+  },
+  "items": [
+    {
+      "description": "Carpet Protector 67cm Ideal Herringbone CLR 35G",
+      "price": 32.12,
+      "gst_in_item": 2.92
+    }
+  ],
+  "totals": {
+    "subtotal": 32.12,
+    "gst_included": 2.92,
+    "grand_total": 32.12
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. The total amounts and GST calculations are consistent.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T01:36:35.213665"
+}

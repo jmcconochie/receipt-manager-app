@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Tony Barlow Menswear",
+    "abn": "",
+    "phone": "",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "09/09/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "09/09/2022",
+    "team_member": "",
+    "payment_method": "",
+    "approval_code": "",
+    "amount": 0,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "Suit",
+      "price": 0,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 610,
+    "gst_included": 0,
+    "grand_total": 610
+  },
+  "notes": "Date and total information is missing. The store name may be incorrect due to OCR errors.",
+  "complete": "incomplete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:26:15.184003"
+}

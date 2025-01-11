@@ -1,0 +1,77 @@
+{
+  "store": {
+    "name": "Priceline Pharmacy Perth Central",
+    "abn": "29 168 918 30",
+    "phone": "1300 88 44 11",
+    "address": "Shop 8, 378 Wellington Street, Perth 6000"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": ""
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "",
+    "payment_method": "EFT On-Line",
+    "approval_code": "652392",
+    "amount": 139.21,
+    "gst_included": 2.25
+  },
+  "items": [
+    {
+      "description": "SOLC LEMON 600ML",
+      "price": 3.79,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "OTAZEPAM (5mg)",
+      "price": 19.09,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "AMOX & CLA 875mg",
+      "price": 20.78,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "INZA TAB 500mg",
+      "price": 22.39,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "STILDEM TA 10mg",
+      "price": 22.5,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "AUDIPLUGS HIGH NOISE",
+      "price": 10.49,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "AUDIPLUGS HIGH NOISE",
+      "price": 10.49,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "OTRIVIN ADU D/SPR 10",
+      "price": 11.49,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "APH PSE C&F D&N 24T",
+      "price": 16.99,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 139.21,
+    "gst_included": 2.25,
+    "grand_total": 139.21
+  },
+  "notes": "Date not provided in the receipt. GST included is consistent with the total.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:29:53.411737"
+}

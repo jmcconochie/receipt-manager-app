@@ -1,0 +1,67 @@
+{
+  "store": {
+    "name": "KMART",
+    "abn": "73 004 700 485",
+    "phone": "08 6330 8300",
+    "address": "1278 EAST VICTORIA PARK, WA, AU"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "19/03/2022"
+  },
+  "transaction": {
+    "transaction_number": "60133345",
+    "date_time": "19/03/2022 16:58",
+    "team_member": "LEAH",
+    "payment_method": "Debit MasterCard",
+    "approval_code": "R28617",
+    "amount": 25.25,
+    "gst_included": 2.3
+  },
+  "items": [
+    {
+      "description": "ALIP REPAIR",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "LPAW PAW OINTMENT",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "2PK MINI BLENDER",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "POMPOM HEADBAND",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "NIGHT MOISTURISER",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "FACE MOISTURISER",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "MAKEUP REMOVER",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 25.25,
+    "gst_included": 2.3,
+    "grand_total": 25.25
+  },
+  "notes": "Items prices not specified in the receipt. Date format is assumed to be dd/mm/yyyy.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:08:10.605515"
+}

@@ -1,0 +1,52 @@
+{
+  "store": {
+    "name": "Katy Mills",
+    "abn": "",
+    "phone": "",
+    "address": "8000 Katy Mills Circle, Katy, TX 77494"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": ""
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "",
+    "payment_method": "MASTERCARD",
+    "approval_code": "R38320",
+    "amount": 249.93,
+    "gst_included": 18.0
+  },
+  "items": [
+    {
+      "description": "Wave Plus Stainless",
+      "price": 109.0,
+      "gst_in_item": 8.25
+    },
+    {
+      "description": "Rh Crew 3p/black/med/",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Ducl Activ/gv039/med/",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "DONAT TON",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 229.97,
+    "gst_included": 18.0,
+    "grand_total": 249.93
+  },
+  "notes": "Date not provided, assumed to be recent. GST calculated based on subtotal.",
+  "complete": "incomplete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:29:33.315051"
+}

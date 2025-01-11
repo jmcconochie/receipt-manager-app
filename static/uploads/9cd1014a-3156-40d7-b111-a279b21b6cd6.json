@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "JB Hi-Fi",
+    "abn": "37 093 114 286",
+    "phone": "08 9599 2200",
+    "address": "Tenancy 174, 1 Council Ave, Rockingham WA 6168, Australia"
+  },
+  "tax_invoice": {
+    "invoice_number": "AB069-57040",
+    "date": "16/02/2022"
+  },
+  "transaction": {
+    "transaction_number": "61323-100",
+    "date_time": "16/02/2022",
+    "team_member": "",
+    "payment_method": "Paid In Store",
+    "approval_code": "",
+    "amount": 329,
+    "gst_in_item": 0
+  },
+  "items": [
+    {
+      "description": "Thrustmaster TH8A Shifter",
+      "price": 329,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 329,
+    "gst_included": 0,
+    "grand_total": 329
+  },
+  "notes": "Date not found in the receipt. The item description is unclear due to OCR errors.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:28:26.837574"
+}

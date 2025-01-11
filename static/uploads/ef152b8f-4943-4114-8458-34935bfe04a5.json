@@ -3,10 +3,10 @@
     "name": "Total Tools Kewdale",
     "abn": "69 607 247 361",
     "phone": "08 6189 0290",
-    "address": "156 Kewdale Road, Kewdale, WA 6105"
+    "address": "156 Kewdale Road, Kewdale, WA"
   },
   "tax_invoice": {
-    "invoice_number": "92074",
+    "invoice_number": "",
     "date": "21/12/2024"
   },
   "transaction": {
@@ -15,31 +15,28 @@
     "team_member": "Kyle Teard",
     "payment_method": "Cash",
     "approval_code": "",
-    "amount": 107.0,
-    "gst_included": 0.0
+    "amount": 0,
+    "gst_included": 0
   },
   "items": [
     {
-      "description": "Pad Polishing H&L Sponge",
-      "price": 25.0,
-      "gst_in_item": 1.5
+      "description": "Pad Polishing H&L Sponge, Milwaukee M18 Polisher",
+      "price": 6,
+      "gst_in_item": 0.06
     },
     {
-      "description": "Voltage Detector 50-1000V",
-      "price": 44.0,
-      "gst_in_item": 2.64
-    },
-    {
-      "description": "Pad Backing H&L Polisher",
+      "description": "Voltage Detector 50-1000V, Milwaukee",
       "price": 38.66,
-      "gst_in_item": 2.32
+      "gst_in_item": 3.87
     }
   ],
   "totals": {
-    "subtotal": 107.0,
-    "gst_included": 0.0,
-    "grand_total": 107.0
+    "subtotal": 107,
+    "gst_included": 9.72,
+    "grand_total": 107
   },
-  "notes": "Date format is assumed to be dd/mm/yyyy.",
-  "categories": []
+  "notes": "The date was interpreted as 21/12/2024 based on the Australian format. The total amounts were calculated based on the item prices and GST.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T02:03:38.266073"
 }

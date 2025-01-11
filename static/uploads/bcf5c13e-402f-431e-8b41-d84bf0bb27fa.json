@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Cannington AVIT PTY LTD",
+    "abn": "92 324 379 644",
+    "phone": "08 8311 1100",
+    "address": "1363 Albany Hwy, PO Box 452, Cannington WA 6987"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "13/11/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "13/11/2022",
+    "team_member": "",
+    "payment_method": "Cash",
+    "approval_code": "",
+    "amount": 0,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "Swann Smart Security Mount White",
+      "price": 0,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 0,
+    "gst_included": 0,
+    "grand_total": 19
+  },
+  "notes": "Date not found in the receipt. The invoice number and transaction details are also missing.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:28:02.038409"
+}

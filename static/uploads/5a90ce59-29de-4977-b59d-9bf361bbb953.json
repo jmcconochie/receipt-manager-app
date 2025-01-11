@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Spotlight Cannington",
+    "abn": "3956480 1606",
+    "phone": "08 6116 7432",
+    "address": "2 William Street, Cannington WA 6107"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "07/01/2025"
+  },
+  "transaction": {
+    "transaction_number": "BNZ379",
+    "date_time": "07/01/2025 13:26:38",
+    "team_member": "Joanne",
+    "payment_method": "EFTPOS",
+    "approval_code": "O2131",
+    "amount": 10.0,
+    "gst_included": 0.91
+  },
+  "items": [
+    {
+      "description": "Acrylic Bunk TPK",
+      "price": 10.0,
+      "gst_in_item": 0.91
+    }
+  ],
+  "totals": {
+    "subtotal": 10.0,
+    "gst_included": 0.91,
+    "grand_total": 10.0
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. The store name was corrected from 'TLIO CANINE' to 'Spotlight Cannington'.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-10T23:48:17.188056"
+}

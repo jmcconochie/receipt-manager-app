@@ -1,0 +1,67 @@
+{
+  "store": {
+    "name": "PAUNNINGS",
+    "abn": "26 008 672 179",
+    "phone": "(08) 6250 4600",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "01/01/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "",
+    "payment_method": "",
+    "approval_code": "",
+    "amount": 198.04,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "POOL CHEMICAL HY-CLOR SUPER-SHOCK CHLORINE",
+      "price": 29.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "HERBICIDE ALL PURPOSE ROUNDUP FAST RIG",
+      "price": 18.49,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "PAIL ROUND HANDY 11.1L U/LID FOODGRADE",
+      "price": 11.99,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "DUCT TAPE ORIGINAL DUCK TAPE SILVER",
+      "price": 10.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "PLANT-EASY CARE RANGE EPIPREKNUN HARBLE QUEEN",
+      "price": 89.99,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "POT COMREC EDEN WHITE REPOT",
+      "price": 9.08,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "PLANT TIE WHITES GROUP 100 D/GRN HUY DTY TWIST",
+      "price": 7.49,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 198.04,
+    "gst_included": 0.0,
+    "grand_total": 198.04
+  },
+  "notes": "Date inferred as 01/01/2023 due to lack of clear date format.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T09:30:01.986295"
+}

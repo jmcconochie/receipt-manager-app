@@ -1,0 +1,47 @@
+{
+  "store": {
+    "name": "The Good Guys Discount Warehouses (Australia) P/L",
+    "abn": "96 821 962 838",
+    "phone": "08 9450 9000",
+    "address": "225 Alexander Road, Belmont WA 6104"
+  },
+  "tax_invoice": {
+    "invoice_number": "D1120530731",
+    "date": "18/01/2019"
+  },
+  "transaction": {
+    "transaction_number": "1120194648",
+    "date_time": "",
+    "team_member": "Michael M",
+    "payment_method": "EFTPOS Mastercard",
+    "approval_code": "112003152535",
+    "amount": 112.8,
+    "gst_included": 10.25
+  },
+  "items": [
+    {
+      "description": "60L Cylinder",
+      "price": 99.9,
+      "gst_in_item": 9.09
+    },
+    {
+      "description": "Classics/FS Ginger Ale Syrup 440ml",
+      "price": 5.95,
+      "gst_in_item": 0.54
+    },
+    {
+      "description": "Fruits Raspberry Syrup 440ml",
+      "price": 6.95,
+      "gst_in_item": 0.63
+    }
+  ],
+  "totals": {
+    "subtotal": 112.8,
+    "gst_included": 10.25,
+    "grand_total": 112.8
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. All fields are filled correctly.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-09T05:13:45.727168"
+}

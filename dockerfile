@@ -4,7 +4,10 @@ FROM python:3.10-slim
 # Install Tesseract
 RUN apt-get update && apt-get install -y \
     tesseract-ocr libtesseract-dev libleptonica-dev \
+    wget vim \
     && apt-get clean
+
+RUN wget https://github.com/tesseract-ocr/tessdata/raw/main/eng.traineddata -O /usr/share/tesseract-ocr/5/tessdata/eng.traineddata
 
 # Create a working directory
 WORKDIR /app

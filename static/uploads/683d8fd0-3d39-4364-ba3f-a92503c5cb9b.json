@@ -1,0 +1,62 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 672 179",
+    "phone": "(08) 9230 6200",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "08/04/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "08/04/2023 01:56:43",
+    "team_member": "",
+    "payment_method": "EFT",
+    "approval_code": "",
+    "amount": 0,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "Adhesive Carpet Tile Durnlop 2L Pressure Sensitive",
+      "price": 37.09,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Battery SLA Century 12U 7AH",
+      "price": 34.36,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Vinyl Trowel Steel",
+      "price": 13.99,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Knife Trimming Retractable Blade",
+      "price": 9.85,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Carpet Tile Polypropylene 50K50 Alfa Camel",
+      "price": 324,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Bar Racking 380MM W12",
+      "price": 8.83,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 0,
+    "gst_included": 0,
+    "grand_total": 428.12
+  },
+  "notes": "The total amounts and some item prices are missing or unclear due to OCR errors. The date format is assumed to be dd/mm/yyyy. JdM fixed",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:09:51.972427"
+}

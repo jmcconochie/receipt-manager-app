@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 672 179",
+    "phone": "(08) 9236 6200",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "08/10/2003"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "08/10/2003 01:39",
+    "team_member": "",
+    "payment_method": "EFT",
+    "approval_code": "534970940",
+    "amount": 19.67,
+    "gst_in_item": 1.79
+  },
+  "items": [
+    {
+      "description": "Storage Container Ezy Storage Solutions Plus",
+      "price": 11.46,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Dryer Slide Pair Goliath",
+      "price": 8.21,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 19.67,
+    "gst_included": 1.79,
+    "grand_total": 19.67
+  },
+  "notes": "The date format is assumed to be dd/mm/yyyy. The total amounts have been verified.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T05:37:43.612804"
+}

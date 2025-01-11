@@ -1,0 +1,47 @@
+{
+  "store": {
+    "name": "Airspares",
+    "abn": "91 101 505 275",
+    "phone": "1300 662 244",
+    "address": "6/56 Prindiville Drive, Wangara, WA"
+  },
+  "tax_invoice": {
+    "invoice_number": "1234",
+    "date": "18/07/2023"
+  },
+  "transaction": {
+    "transaction_number": "CASHDEAN",
+    "date_time": "",
+    "team_member": "AS Wangara",
+    "payment_method": "EFTPOS",
+    "approval_code": "",
+    "amount": 0.0,
+    "gst_in_item": 0.0
+  },
+  "items": [
+    {
+      "description": "POLY MDO-X MULTI-DIRECTIONAL VENT 300",
+      "price": 1.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "POLY ADAPTOR 300X300 - 250 NECK",
+      "price": 1.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "POLYAIRE MOUNTING CLIP METAL (PKT 4)",
+      "price": 1.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 3.0,
+    "gst_included": 0.0,
+    "grand_total": 3.0
+  },
+  "notes": "Date format is in Australian format. Total amounts make sense.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:13:36.850973"
+}

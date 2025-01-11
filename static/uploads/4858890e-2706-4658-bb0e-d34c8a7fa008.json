@@ -1,0 +1,62 @@
+{
+  "store": {
+    "name": "Klarmann AUTOELECTRICPARTS",
+    "abn": "25 635 286 145",
+    "phone": "(08) 6155 3932",
+    "address": "1/ 29 May Holman Drive, Bassendean Western Australia"
+  },
+  "tax_invoice": {
+    "invoice_number": "POS-000705",
+    "date": "25/09/2020"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "25/09/2020 15:00",
+    "team_member": "",
+    "payment_method": "Credit Card",
+    "approval_code": "",
+    "amount": 702.47,
+    "gst_included": 63.86
+  },
+  "items": [
+    {
+      "description": "8B&S Twin Core Black Sheath (red & black inside)",
+      "price": 27.28,
+      "gst_in_item": 6.8
+    },
+    {
+      "description": "Redarc BCDC1225D Battery Charger DC to DC 25A",
+      "price": 471.81,
+      "gst_in_item": 60.9
+    },
+    {
+      "description": "Genuine Anderson Connector Plug SB50",
+      "price": 30.88,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Circuit Breaker 12 - 48Vdc Surface Mount Manual Reset IP67 50A",
+      "price": 10.0,
+      "gst_in_item": 1.0
+    },
+    {
+      "description": "Circuit Breaker Mini 12-32V 40A Manual Reset Recessed Mount",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Cable Lug 6mm Copper Stud 10mm2",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 638.61,
+    "gst_included": 63.86,
+    "grand_total": 702.47
+  },
+  "notes": "Date format is dd/mm/yyyy. All totals and calculations appear correct.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T11:05:00.298109"
+}

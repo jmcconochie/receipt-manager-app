@@ -1,0 +1,57 @@
+{
+  "store": {
+    "name": "Discount Drug Stores Victoria",
+    "abn": "75253910473",
+    "phone": "08 9361 9711",
+    "address": "Shop 3, 366-374 Albany Highway, Victoria Park, WA 6100"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "10/01/2025"
+  },
+  "transaction": {
+    "transaction_number": "251016",
+    "date_time": "10/01/2025 16:28:32",
+    "team_member": "",
+    "payment_method": "EFTPOS/Credit Card",
+    "approval_code": "",
+    "amount": 66.45,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "Melolin 10x10cm 3 PK",
+      "price": 3.49,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Melolin 10x10cm 3 PK",
+      "price": 9.99,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Melolin 10x10cm 3 PK",
+      "price": 9.99,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Otrivin Nasal Mist 10ml",
+      "price": 13.99,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Rhinocort Spray 64mcg 120 days",
+      "price": 28.99,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 66.45,
+    "gst_included": 0.0,
+    "grand_total": 66.45
+  },
+  "notes": "The date is assumed to be in dd/mm/yyyy format. The total and item prices are consistent.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-10T12:56:24.088114"
+}

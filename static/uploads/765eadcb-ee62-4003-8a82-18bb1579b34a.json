@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 672 179",
+    "phone": "(08) 9373 4800",
+    "address": "Belmont WA"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "22/12/2000"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "22/12/2000 12:06:30",
+    "team_member": "",
+    "payment_method": "CREDIT",
+    "approval_code": "",
+    "amount": 53.0,
+    "gst_included": 4.82
+  },
+  "items": [
+    {
+      "description": "Bathroom Accessory Sahara Caroma Metal Soap Dish CP 902620",
+      "price": 53.0,
+      "gst_in_item": 4.82
+    }
+  ],
+  "totals": {
+    "subtotal": 53.0,
+    "gst_included": 4.82,
+    "grand_total": 53.0
+  },
+  "notes": "Date format is in Australian format. The store name had a spelling error in the OCR scan.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T09:28:41.541416"
+}

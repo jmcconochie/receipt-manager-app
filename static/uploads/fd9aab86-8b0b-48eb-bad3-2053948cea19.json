@@ -2,7 +2,7 @@
   "store": {
     "name": "Dulux",
     "abn": "",
-    "phone": "",
+    "phone": "(08) 6350 9600",
     "address": ""
   },
   "tax_invoice": {
@@ -11,42 +11,42 @@
   },
   "transaction": {
     "transaction_number": "",
-    "date_time": "30/12/2024 09:41",
+    "date_time": "30/12/2024 09:41:34",
     "team_member": "",
-    "payment_method": "CREDIT",
+    "payment_method": "Credit",
     "approval_code": "",
     "amount": 181.88,
-    "gst_included": 0
+    "gst_included": 0.0
   },
   "items": [
     {
-      "description": "Rust Defence Dulux Metal Shield",
-      "price": 4.5,
-      "gst_in_item": 0
+      "description": "Dulux Metrishield White Gloss 1L",
+      "price": 65.5,
+      "gst_in_item": 0.0
     },
     {
-      "description": "Dulux Weathershield",
-      "price": 54.88,
-      "gst_in_item": 0
+      "description": "Dulux Weathershield Extra Bright 1L",
+      "price": 64.5,
+      "gst_in_item": 0.0
     },
     {
-      "description": "Paint Metal Primer Rustguard",
-      "price": 6.9,
-      "gst_in_item": 0
+      "description": "Rustguard Metal Primer Quick Dry 500ml",
+      "price": 38.9,
+      "gst_in_item": 0.0
     },
     {
-      "description": "Sano Mesh Orbital Full Boar 125MM",
+      "description": "Sanding Mesh Orbital Full Boar 125mm 120G",
       "price": 12.98,
-      "gst_in_item": 0
+      "gst_in_item": 0.0
     }
   ],
   "totals": {
-    "subtotal": 181.86,
-    "gst_included": 0,
+    "subtotal": 161.88,
+    "gst_included": 0.0,
     "grand_total": 181.88
   },
-  "notes": "Date format is assumed to be Australian.",
-  "categories": [
-    "tax"
-  ]
+  "notes": "The date format is assumed to be dd/mm/yyyy. The total and subtotal values are consistent.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T04:18:26.734083"
 }

@@ -1,0 +1,35 @@
+<!-- templates/search.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+  <ul class="nav nav-tabs" id="receiptManagerTabs" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="search-tab" data-bs-toggle="tab" data-bs-target="#search" type="button" role="tab" aria-controls="search" aria-selected="false">Search</button>
+    </li>
+  </ul>
+
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade" id="search" role="tabpanel" aria-labelledby="search-tab">
+      <form action="/search" method="GET" class="mt-3">
+        <div class="input-group mb-3">
+          <input type="text" name="q" class="form-control" placeholder="Enter search term" aria-label="Search term" />
+          <button class="btn btn-secondary" type="submit">Search</button>
+        </div>
+      </form>
+      <h6>Filter by Category</h6>
+      <!-- Filters -->
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="category" value="tax" id="searchTax" />
+        <label class="form-check-label" for="searchTax">Tax</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="category" value="read_for_life" id="searchReadForLife" />
+        <label class="form-check-label" for="searchReadForLife">Read for Life</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" name="category" value="warranty" id="searchWarranty" />
+        <label class="form-check-label" for="searchWarranty">Warranty</label>
+      </div>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Roof Top Industries",
+    "abn": "103461934",
+    "phone": "(08) 9309 3993",
+    "address": "3 Irwin Road, Wangara WA 6065"
+  },
+  "tax_invoice": {
+    "invoice_number": "27732",
+    "date": "15/03/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "",
+    "payment_method": "CASH SALE",
+    "approval_code": "",
+    "amount": 69.3,
+    "gst_included": 6.3
+  },
+  "items": [
+    {
+      "description": "Monier Horizon",
+      "price": 63.0,
+      "gst_in_item": 6.3
+    }
+  ],
+  "totals": {
+    "subtotal": 63.0,
+    "gst_included": 6.3,
+    "grand_total": 69.3
+  },
+  "notes": "Date is in Australian format. All values are consistent.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T07:54:10.912875"
+}

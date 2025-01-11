@@ -1,0 +1,82 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 672 179",
+    "phone": "(08) 6350 5600",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "0390220",
+    "date": "26/02/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "26/02/2023 12:33:16",
+    "team_member": "",
+    "payment_method": "EFT",
+    "approval_code": "",
+    "amount": 210.19,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "FORMPLY F17 1600X1200X 17HH",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "ROPE OUTDOOR GRUNT BMNX25H GRROPE0209",
+      "price": 14.4,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "CASTOR SWIVEL BRAKE NOVETT 750M RED PU 15501",
+      "price": 12.05,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "PULLEY FIXED DOUBLE ZENITH 38HN 2P 1PK PP20001",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "CASTOR SWIVEL MOVELT 75HH RED PU 120KG 15500",
+      "price": 12.05,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "PULLEY BRASS ZENITH 36HM WICKEL PLATED 1PK FPNOO38",
+      "price": 11.17,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "SCREW EYE HOOK EVERHANG Z0MH 10PK 72436",
+      "price": 10.7,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "BOLTSENUT HEX HDG WEI ZENITH 16x20 BX25 BGHO0820",
+      "price": 9.95,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "BOW SHACKLE ZENITH 6MM GAL 1 PACK AS2741",
+      "price": 3.03,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "WASHERS GAL METRIC WO HGFOB200",
+      "price": 2.47,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 210.19,
+    "gst_included": 0.0,
+    "grand_total": 210.19
+  },
+  "notes": "Date format is in Australian format. All items and totals appear to be correct.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T05:32:08.600318"
+}

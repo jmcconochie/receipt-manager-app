@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Rosendorff Diamonds",
+    "abn": "80 633 654 663",
+    "phone": "08 9321 4015",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "10/06/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "10/06/2022",
+    "team_member": "",
+    "payment_method": "EFTPOS",
+    "approval_code": "",
+    "amount": 24,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "Diamond necklace timeless 0.5crt F VS 18WG 4Claw pendant",
+      "price": 2940,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 2940,
+    "gst_included": 0,
+    "grand_total": 2940
+  },
+  "notes": "Date not specified, assumed to be current date. Receipt may have OCR errors.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:12:19.227340"
+}

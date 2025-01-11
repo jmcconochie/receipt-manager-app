@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "Altronics",
+    "abn": "",
+    "phone": "",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "17/05/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "17/05/2022",
+    "team_member": "",
+    "payment_method": "Manual Card",
+    "approval_code": "",
+    "amount": 13.85,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "Relay Mini SPDT 1A",
+      "price": 11.4,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Heat Shrink Clear 6mm 1.2m",
+      "price": 2.55,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 13.95,
+    "gst_included": 0,
+    "grand_total": 13.95
+  },
+  "notes": "Date format is uncertain; no clear date found in the receipt.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T11:00:55.774293"
+}

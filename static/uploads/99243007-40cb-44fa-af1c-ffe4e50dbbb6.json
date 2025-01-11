@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "AL TRONICS",
+    "abn": "84177396871",
+    "phone": "1300797007",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "1886695",
+    "date": "26/08/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "26/08/2023 15:02",
+    "team_member": "JC",
+    "payment_method": "Manual Card",
+    "approval_code": "",
+    "amount": 39.75,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "SIDE CUTTER 6\" INSULATED 1000V",
+      "price": 26.5,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "SIDE CUTTER - 5\" MICRO",
+      "price": 13.25,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 39.75,
+    "gst_included": 0.0,
+    "grand_total": 39.75
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. Total amounts have been verified.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T09:33:17.183089"
+}

@@ -1,0 +1,52 @@
+{
+  "store": {
+    "name": "Kensington IGA X-PRES & NEWSAGENCY",
+    "abn": "8340834562",
+    "phone": "(08) 9367 8268",
+    "address": "45-47 GEORGE STREET, KENSINGTON WA 6151"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "15/03/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "15/03/2023 20:08",
+    "team_member": "",
+    "payment_method": "MANUAL EFT",
+    "approval_code": "",
+    "amount": 13.04,
+    "gst_included": 0.64
+  },
+  "items": [
+    {
+      "description": "H/FRESH MILK HILO 3L",
+      "price": 5.95,
+      "gst_in_item": 0
+    },
+    {
+      "description": "CAD CHOC FRUIT & NUT 180GM",
+      "price": 2.75,
+      "gst_in_item": 0
+    },
+    {
+      "description": "CAD CRUNCHIE BAR 2286 50GM",
+      "price": 2.15,
+      "gst_in_item": 0
+    },
+    {
+      "description": "BOUNTY BAR 56GM",
+      "price": 2.19,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 13.04,
+    "gst_included": 0.64,
+    "grand_total": 13.04
+  },
+  "notes": "The date is in Australian format. Some item prices are missing due to OCR errors. JdM Fixed",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:07:00.270176"
+}

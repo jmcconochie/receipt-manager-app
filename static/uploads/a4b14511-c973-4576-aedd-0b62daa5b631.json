@@ -1,7 +1,7 @@
 {
   "store": {
-    "name": "Farmer Jacks Como",
-    "abn": "57261411593",
+    "name": "Farmer Jacks",
+    "abn": "57281411593",
     "phone": "",
     "address": ""
   },
@@ -11,7 +11,7 @@
   },
   "transaction": {
     "transaction_number": "",
-    "date_time": "23/12/2024 08:40:39",
+    "date_time": "23/12/2024 08:40:32",
     "team_member": "Jai",
     "payment_method": "EFTPOS/Mondex",
     "approval_code": "287732",
@@ -21,36 +21,31 @@
   "items": [
     {
       "description": "Chicken Breast 3PK",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "B/Crock Brandy *1KG",
       "price": 12.99,
       "gst_in_item": 0.0
     },
     {
-      "description": "B/Crock Brisket G/F #450GM",
-      "price": 8.0,
+      "description": "Aeroplane Jelly Raspberry 895G",
+      "price": 1.29,
       "gst_in_item": 0.0
     },
     {
-      "description": "Aeroplane Jelly Raspberry 85G",
-      "price": 2.58,
-      "gst_in_item": 0.0
-    },
-    {
-      "description": "Pauls Custard Brandy 1KG",
-      "price": 6.0,
-      "gst_in_item": 0.0
-    },
-    {
-      "description": "Frem Coffee Purple HZ Blend 1KG",
+      "description": "Pauls Custard",
       "price": 0.0,
       "gst_in_item": 0.0
     },
     {
-      "description": "H/Fresh 25% Off Mango Temptation",
+      "description": "Frem Coffee Purple HZ BLD 1KG",
       "price": 0.0,
       "gst_in_item": 0.0
     },
     {
-      "description": "Cape Cod Lge Prawn Cutlets",
+      "description": "Large Prawn Cutlets 3",
       "price": 0.0,
       "gst_in_item": 0.0
     },
@@ -65,7 +60,7 @@
       "gst_in_item": 0.0
     },
     {
-      "description": "Val Peach Sld Mango Puree 700GM",
+      "description": "Val Peach SLD MGO Puree 700G",
       "price": 0.0,
       "gst_in_item": 0.0
     },
@@ -75,27 +70,27 @@
       "gst_in_item": 0.0
     },
     {
-      "description": "Mayonnaise Whole Egg SQ 470GM",
+      "description": "Praise Mayonnaise Whole Egg Squeeze 470G",
       "price": 0.0,
       "gst_in_item": 0.0
     },
     {
-      "description": "B/Gold Cream Thickened 600ML",
+      "description": "B/Goll Cream Thickened 600ML",
       "price": 0.0,
       "gst_in_item": 0.0
     },
     {
       "description": "Watermelon Seedless Whole",
-      "price": 18.27,
-      "gst_in_item": 0.0
-    },
-    {
-      "description": "Eatwell Cranberries 400G",
       "price": 0.0,
       "gst_in_item": 0.0
     },
     {
-      "description": "White Label Avocado",
+      "description": "Eatwell Cranberries 410G",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "White Label - Avocado",
       "price": 0.0,
       "gst_in_item": 0.0
     },
@@ -105,38 +100,43 @@
       "gst_in_item": 0.0
     },
     {
-      "description": "Pauls Custard Vanilla 690GM",
+      "description": "Pauls Custard Vanilla 600G",
       "price": 0.0,
       "gst_in_item": 0.0
     },
     {
       "description": "Tomatoes Roma",
-      "price": 7.25,
-      "gst_in_item": 0.0
-    },
-    {
-      "description": "Burpless Cucumber",
       "price": 0.0,
       "gst_in_item": 0.0
     },
     {
-      "description": "NZ Blueberry Punnet 125G",
+      "description": "Yellow Label Burpless Cucumber",
       "price": 0.0,
       "gst_in_item": 0.0
     },
     {
-      "description": "Grape Punnet 200G",
+      "description": "Strawberries 250G",
       "price": 0.0,
       "gst_in_item": 0.0
     },
     {
-      "description": "Cherries",
+      "description": "Berries NZ Blueberry Punnet 12",
       "price": 0.0,
       "gst_in_item": 0.0
     },
     {
-      "description": "Grapes White Dawn Seedless",
-      "price": 14.61,
+      "description": "Tomatoes Grape Punnet 200G",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Cherries 0.650kg",
+      "price": 0.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Grapes White Dawn Seedless 1.127kg",
+      "price": 0.0,
       "gst_in_item": 0.0
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "description": "Mangoes R2E2 Large",
-      "price": 14.97,
+      "price": 4.99,
       "gst_in_item": 0.0
     },
     {
@@ -161,6 +161,7 @@
     "grand_total": 261.16
   },
   "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "complete": "complete",
   "categories": [],
-  "scanned_on": "2025-01-06T09:19:36.333526"
+  "scanned_on": "2025-01-11T05:29:17.634222"
 }

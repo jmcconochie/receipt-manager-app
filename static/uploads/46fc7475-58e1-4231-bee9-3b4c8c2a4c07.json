@@ -1,0 +1,52 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 672 179",
+    "phone": "(08) 9373 4600",
+    "address": "Belmont WA"
+  },
+  "tax_invoice": {
+    "invoice_number": "3961900",
+    "date": "12/07/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "12/07/2023 17:34:13",
+    "team_member": "L JRENG N S",
+    "payment_method": "EFT",
+    "approval_code": "",
+    "amount": 143.96,
+    "gst_included": 13.09
+  },
+  "items": [
+    {
+      "description": "Graphite Tint Adhesive Pillar 1.5X10H WF15106T",
+      "price": 120.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Film Solution Spray Pillar 2\"OHL WFSS",
+      "price": 10.99,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Scraper Blade Ortes 9.5CH B-60207",
+      "price": 6.99,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Cleaner Glass Glitz 7.0ML GLASS 3095672",
+      "price": 5.99,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 143.96,
+    "gst_included": 13.09,
+    "grand_total": 143.96
+  },
+  "notes": "Date format is in Australian format. All items and totals are consistent.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:13:42.430755"
+}

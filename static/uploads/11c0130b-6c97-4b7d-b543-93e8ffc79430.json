@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Bunnings",
+    "abn": "26 003 572 179",
+    "phone": "",
+    "address": "East Victoria Park"
+  },
+  "tax_invoice": {
+    "invoice_number": "9310066545745",
+    "date": "03/01/2021"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "",
+    "payment_method": "Credit",
+    "approval_code": "",
+    "amount": 0,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "Hook Garage Suslhook",
+      "price": 0,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 0,
+    "gst_included": 0,
+    "grand_total": 20.87
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. Total amounts are not specified clearly.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T11:04:39.046058"
+}

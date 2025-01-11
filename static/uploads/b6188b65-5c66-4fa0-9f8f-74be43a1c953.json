@@ -1,0 +1,52 @@
+{
+  "store": {
+    "name": "Branches",
+    "abn": "55161121671",
+    "phone": "",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "8346",
+    "date": "21/12/2020"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "21/12/2020",
+    "team_member": "Brian",
+    "payment_method": "Credit Card",
+    "approval_code": "",
+    "amount": 137.05,
+    "gst_included": 12.46
+  },
+  "items": [
+    {
+      "description": "Calathea UV in Small Black Gianna Pot",
+      "price": 58.6,
+      "gst_in_item": 5.86
+    },
+    {
+      "description": "Gianna Pot 11cm Black",
+      "price": 15.6,
+      "gst_in_item": 1.56
+    },
+    {
+      "description": "Spider Plant 38cm Green White",
+      "price": 0,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Madison Jar Candle / Sweet Pea & Jasmine",
+      "price": 42.95,
+      "gst_in_item": 4.3
+    }
+  ],
+  "totals": {
+    "subtotal": 124.59,
+    "gst_included": 12.46,
+    "grand_total": 137.05
+  },
+  "notes": "Date not provided in the receipt. The GST calculations appear to be correct based on the subtotal.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T09:31:52.358014"
+}

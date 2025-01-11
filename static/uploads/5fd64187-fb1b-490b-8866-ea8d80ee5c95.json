@@ -1,0 +1,39 @@
+{
+  "store": {
+    "name": "PLE Computers Pty Ltd",
+    "abn": "48051 046 596",
+    "phone": "08 6316 3882",
+    "address": "j"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "10/01/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "",
+    "payment_method": "",
+    "approval_code": "",
+    "amount": 155,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "Samsung 970 EVO Plus 1TB Disk",
+      "price": 155,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 155,
+    "gst_included": 0,
+    "grand_total": 155
+  },
+  "notes": "Date not provided, assumed to be in Australian format.",
+  "complete": "complete",
+  "categories": [
+    "tax"
+  ],
+  "scanned_on": "2025-01-08T00:27:42.619088"
+}

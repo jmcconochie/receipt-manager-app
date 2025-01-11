@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "Coffee Shop",
+    "abn": "",
+    "phone": "",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "15/10/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "",
+    "payment_method": "",
+    "approval_code": "",
+    "amount": 0.0,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "Coffee",
+      "price": 4.0,
+      "gst_in_item": 0.36
+    },
+    {
+      "description": "Biscuits",
+      "price": 2.0,
+      "gst_in_item": 0.18
+    }
+  ],
+  "totals": {
+    "subtotal": 6.0,
+    "gst_included": 0.54,
+    "grand_total": 6.0
+  },
+  "notes": "Date inferred as 15/10/2023 based on context. Store name assumed as Coffee Shop based on item descriptions.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T02:15:52.239556"
+}

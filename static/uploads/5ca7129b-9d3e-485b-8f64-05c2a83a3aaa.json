@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "KMART",
+    "abn": "73 004 700 48",
+    "phone": "08 6330 8300",
+    "address": "1278 EAST VICTORIA PARK, WA, AU"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "26/03/2023"
+  },
+  "transaction": {
+    "transaction_number": "60133345",
+    "date_time": "26/03/2023 13:17",
+    "team_member": "OLAF",
+    "payment_method": "MASTERCARD",
+    "approval_code": "R78754",
+    "amount": 12,
+    "gst_included": 1.09
+  },
+  "items": [
+    {
+      "description": "ZRW MALE TRINGLS 3M",
+      "price": 5,
+      "gst_in_item": 0
+    },
+    {
+      "description": "ZRW DTTYBUTTERFLYS 3M",
+      "price": 2,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 12,
+    "gst_included": 1.09,
+    "grand_total": 12
+  },
+  "notes": "The item prices are listed as 0.00, which may indicate an error in OCR or pricing. The date format is assumed to be dd/mm/yyyy.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:06:58.376114"
+}

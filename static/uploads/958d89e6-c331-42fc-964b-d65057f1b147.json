@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Keogh's Mowers 'N' More",
+    "abn": "31 343 892 803",
+    "phone": "08 9457 4510",
+    "address": "Unit 3/3 Gympie Way, Willetton WA"
+  },
+  "tax_invoice": {
+    "invoice_number": "EFTPOS 62605 #1",
+    "date": "09/09/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "09/09/2023 11:03 AM",
+    "team_member": "",
+    "payment_method": "EFTPOS",
+    "approval_code": "",
+    "amount": 329.0,
+    "gst_included": 29.91
+  },
+  "items": [
+    {
+      "description": "Masport Cleverland Handmower",
+      "price": 329.0,
+      "gst_in_item": 29.91
+    }
+  ],
+  "totals": {
+    "subtotal": 299.09,
+    "gst_included": 29.91,
+    "grand_total": 329.0
+  },
+  "notes": "Date format is in Australian format.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:14:59.564086"
+}

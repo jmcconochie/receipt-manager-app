@@ -1,41 +1,47 @@
 {
   "store": {
     "name": "Caltex Victoria Park",
-    "abn": "34 004 441 1",
+    "abn": "",
     "phone": "",
-    "address": "170 Albany Highway, Victoria Park, WA"
+    "address": "170 Albany Highway, Victoria Park WA"
   },
   "tax_invoice": {
-    "invoice_number": "003991714",
+    "invoice_number": "A |“IRK",
     "date": "01/12/2024"
   },
   "transaction": {
-    "transaction_number": "003991714",
-    "date_time": "01/12/2024 06:53",
-    "team_member": "Lane 1",
+    "transaction_number": "0261",
+    "date_time": "01/12/2024 05:51am",
+    "team_member": "Lane 1 -1",
     "payment_method": "Debit Mastercard",
-    "approval_code": "RU6BS4",
-    "amount": 14.85,
-    "gst_included": 1.18
+    "approval_code": "RI6ESY",
+    "amount": 13,
+    "gst_included": 0
   },
   "items": [
     {
-      "description": "Crushed Ice",
-      "price": 1.0,
-      "gst_in_item": 0.1
+      "description": "Ice Bag 3 Fo",
+      "price": 4.95,
+      "gst_in_item": 0
     },
     {
-      "description": "Fuel",
-      "price": 13.0,
-      "gst_in_item": 1.18
+      "description": "Ice Bag 3 Fo",
+      "price": 4.95,
+      "gst_in_item": 0
+    },
+    {
+      "description": "Ice Bag 3 Fo",
+      "price": 4.95,
+      "gst_in_item": 0
     }
   ],
   "totals": {
-    "subtotal": 14.0,
-    "gst_included": 1.18,
-    "grand_total": 14.85
+    "subtotal": 14.85,
+    "gst_included": 0,
+    "grand_total": 13
   },
-  "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "notes": "The total amount does not match the subtotal of the items. The date format is assumed to be dd/mm/yyyy.",
+  "complete": "complete",
   "categories": [],
-  "scanned_on": "2025-01-06T11:54:43.334361"
+  "scanned_on": "2025-01-11T08:43:15.705066"
 }

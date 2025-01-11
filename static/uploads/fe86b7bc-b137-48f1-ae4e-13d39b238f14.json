@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Bunnings",
+    "abn": "26 008 672 179",
+    "phone": "(04) 6250 4600",
+    "address": "Victoria Park East"
+  },
+  "tax_invoice": {
+    "invoice_number": "93126201",
+    "date": "27/11/2024"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "27/11/2024 06:50:46 AM",
+    "team_member": "",
+    "payment_method": "MasterCard",
+    "approval_code": "",
+    "amount": 26.95,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "Trojan",
+      "price": 26.95,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 26.95,
+    "gst_included": 0.0,
+    "grand_total": 26.95
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. GST is included in the total.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T05:29:54.299094"
+}

@@ -1,0 +1,47 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 672 179",
+    "phone": "(08) 9373 4400",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "9312620107023",
+    "date": "25/09/2021"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "25/09/2021 03:40:37",
+    "team_member": "",
+    "payment_method": "EFT",
+    "approval_code": "",
+    "amount": 42.89,
+    "gst_included": 3.89
+  },
+  "items": [
+    {
+      "description": "Plastic Hanging S/U Northcote 32cm Black Terrazzo",
+      "price": 16.0,
+      "gst_in_item": 1.45
+    },
+    {
+      "description": "Webbing Grunt Poly Black",
+      "price": 6.9,
+      "gst_in_item": 0.63
+    },
+    {
+      "description": "Hooks Ceiling Zenith 69x7.6mhzp",
+      "price": 3.99,
+      "gst_in_item": 0.36
+    }
+  ],
+  "totals": {
+    "subtotal": 42.69,
+    "gst_included": 3.89,
+    "grand_total": 42.89
+  },
+  "notes": "Date format is in Australian format. All fields are filled correctly.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T11:03:56.093621"
+}

@@ -1,0 +1,52 @@
+{
+  "store": {
+    "name": "ALTRONICS",
+    "abn": "84177396671",
+    "phone": "1300 797 007",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "2215125",
+    "date": "07/05/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "07/05/2022 13:32",
+    "team_member": "FS",
+    "payment_method": "Manual Card",
+    "approval_code": "",
+    "amount": 26.55,
+    "gst_included": 2.41
+  },
+  "items": [
+    {
+      "description": "H 3125A BLT PAN POZI NI M3x10 PK200",
+      "price": 6.3,
+      "gst_in_item": 0.57
+    },
+    {
+      "description": "H 1327 SPCR RND NYLN 5X20MM PK100",
+      "price": 13.95,
+      "gst_in_item": 1.27
+    },
+    {
+      "description": "W 0953A H/SHRINK CLEAR 5MM 1.2M",
+      "price": 2.3,
+      "gst_in_item": 0.21
+    },
+    {
+      "description": "S 41408 RELAY MICRO 12V 3A PC SPDT",
+      "price": 4.0,
+      "gst_in_item": 0.36
+    }
+  ],
+  "totals": {
+    "subtotal": 26.55,
+    "gst_included": 2.41,
+    "grand_total": 26.55
+  },
+  "notes": "Date format is in Australian format.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T11:01:05.321731"
+}

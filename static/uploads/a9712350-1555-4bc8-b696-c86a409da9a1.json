@@ -1,0 +1,37 @@
+{
+  "store": {
+    "name": "Pharmacy 777",
+    "abn": "71 621 754 664",
+    "phone": "08 9474 1958",
+    "address": "3 Canning H, South Perth"
+  },
+  "tax_invoice": {
+    "invoice_number": "852622",
+    "date": "30/10/2021"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "30/10/2021",
+    "team_member": "",
+    "payment_method": "",
+    "approval_code": "",
+    "amount": 0,
+    "gst_included": 0
+  },
+  "items": [
+    {
+      "description": "Rhinocort Ex/Str",
+      "price": 28.95,
+      "gst_in_item": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 28.95,
+    "gst_included": 0,
+    "grand_total": 28.95
+  },
+  "notes": "Date not found in the receipt. The total amount is not specified.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:13:26.022538"
+}

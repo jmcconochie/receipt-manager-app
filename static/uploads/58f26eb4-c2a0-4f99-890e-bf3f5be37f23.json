@@ -1,31 +1,31 @@
 {
   "store": {
     "name": "JB Hi-Fi",
-    "abn": "37 093 114 266",
+    "abn": "37 083 114 286",
     "phone": "08 9699 2200",
     "address": "Tenancy 174, 1 Council Ave, Rockingham, WA, 6166"
   },
   "tax_invoice": {
-    "invoice_number": "0403371496",
+    "invoice_number": "",
     "date": "16/02/2022"
   },
   "transaction": {
     "transaction_number": "0403371496",
     "date_time": "16/02/2022 10:30",
     "team_member": "",
-    "payment_method": "EFTPOS-VISA-MC- ONLINE",
-    "approval_code": "#40337 1495-2",
-    "amount": 800.0,
+    "payment_method": "EFTPOS-VISA-MC",
+    "approval_code": "#0337 1495-2",
+    "amount": 1679.0,
     "gst_included": 0.0
   },
   "items": [
     {
-      "description": "THRUSTMASTER T-GT II RACING WHEEL",
+      "description": "THRUSTMASTER T-GT Racing Wheel",
       "price": 1360.0,
       "gst_in_item": 0.0
     },
     {
-      "description": "THRUSTMASTER TH8A SHIFTER WHEEL",
+      "description": "THRUSTMASTER TH8A Shifter Wheel",
       "price": 329.0,
       "gst_in_item": 0.0
     }
@@ -35,7 +35,8 @@
     "gst_included": 0.0,
     "grand_total": 1679.0
   },
-  "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "notes": "The ABN has a discrepancy in the second scan (37 083 114 266). The address has a minor typo in the postcode (6168 vs 6166).",
+  "complete": "complete",
   "categories": [],
-  "scanned_on": "2025-01-07T03:51:46.789520"
+  "scanned_on": "2025-01-11T08:09:04.155031"
 }

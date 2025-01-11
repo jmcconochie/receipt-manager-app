@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "Bunnings",
+    "abn": "",
+    "phone": "",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "03/01/2025"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "",
+    "payment_method": "CREDIT",
+    "approval_code": "",
+    "amount": 274.98,
+    "gst_included": 25.0
+  },
+  "items": [
+    {
+      "description": "Silicone K&B Sanitary White",
+      "price": 13.98,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Spray MXR Cardinal",
+      "price": 261.6,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 274.98,
+    "gst_included": 25.0,
+    "grand_total": 274.98
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. GST included in total is consistent with the subtotal.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T01:52:50.423709"
+}

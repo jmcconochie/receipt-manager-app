@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 672 179",
+    "phone": "(08) 6250 4600",
+    "address": "Victoria Park"
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "10/09/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "10/09/2022 01:40:08",
+    "team_member": "DESK R03",
+    "payment_method": "EFT",
+    "approval_code": "",
+    "amount": 27.93,
+    "gst_included": 2.54
+  },
+  "items": [
+    {
+      "description": "Edger Accessory Ryobi Blade Expandit",
+      "price": 24.98,
+      "gst_in_item": 2.27
+    },
+    {
+      "description": "Funnel All Purpose Sandleford 14CH PF14",
+      "price": 2.95,
+      "gst_in_item": 0.27
+    }
+  ],
+  "totals": {
+    "subtotal": 27.93,
+    "gst_included": 2.54,
+    "grand_total": 27.93
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. The total and subtotal match.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:26:04.896167"
+}

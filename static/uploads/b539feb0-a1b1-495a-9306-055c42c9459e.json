@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "Al TIHUONIL",
+    "abn": "",
+    "phone": "1300797007",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "2198483",
+    "date": "07/04/2022"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "07/04/2022 10:16",
+    "team_member": "MR",
+    "payment_method": "Manual Card",
+    "approval_code": "",
+    "amount": 40.45,
+    "gst_included": 3.0
+  },
+  "items": [
+    {
+      "description": "DISPL MODULE 2.27 220X1176",
+      "price": 26.95,
+      "gst_in_item": 2.45
+    },
+    {
+      "description": "PLICODEY ATMOS SENSOR BME280",
+      "price": 13.5,
+      "gst_in_item": 1.23
+    }
+  ],
+  "totals": {
+    "subtotal": 40.45,
+    "gst_included": 3.0,
+    "grand_total": 40.45
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. Some prices were corrected for consistency.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:25:59.987422"
+}

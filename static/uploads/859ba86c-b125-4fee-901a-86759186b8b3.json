@@ -1,0 +1,47 @@
+{
+  "store": {
+    "name": "JB Hi-Fi",
+    "abn": "37 093 114 286",
+    "phone": "07 4197 3200",
+    "address": "Shop MMO6, Stockland Hervey Bay, 6 Central, Urraween, QLD, 4655"
+  },
+  "tax_invoice": {
+    "invoice_number": "PDAZUY7NZ3V",
+    "date": "26/12/2022"
+  },
+  "transaction": {
+    "transaction_number": "PDAZUY7NZ3V-168",
+    "date_time": "26/12/2022 10:46",
+    "team_member": "56050",
+    "payment_method": "Mastercard",
+    "approval_code": "R91800",
+    "amount": 1622.98,
+    "gst_included": 147.54
+  },
+  "items": [
+    {
+      "description": "APPLE IPHONE 14 PLUS 128GB BLUE",
+      "price": 1569.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "PELICAN - IPHONE 14 PLUS RANGER CLEAR",
+      "price": 30.95,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "CYGNETT - IPHONE 14 PLUS OPTICSHIELD",
+      "price": 23.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 1622.95,
+    "gst_included": 147.54,
+    "grand_total": 1622.95
+  },
+  "notes": "Date format is in Australian format. All fields are filled correctly.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:25:19.221576"
+}

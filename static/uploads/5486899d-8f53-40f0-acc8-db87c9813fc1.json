@@ -1,0 +1,52 @@
+{
+  "store": {
+    "name": "AL TRONILES",
+    "abn": "64177390871",
+    "phone": "1300797007",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "1559696",
+    "date": "24/02/2019"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "",
+    "payment_method": "",
+    "approval_code": "",
+    "amount": 0.0,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "BLUETOOTH",
+      "price": 31.5,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "CLEAR 1.5MM 1.2M",
+      "price": 1.1,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "PCB PROTO BREADBOARD 164X(4)",
+      "price": 6.95,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "PCA PROTO BREADBOARD",
+      "price": 6.25,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 46.8,
+    "gst_included": 0.0,
+    "grand_total": 46.8
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. GST values are not provided.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T08:16:25.050642"
+}

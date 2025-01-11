@@ -10,11 +10,11 @@
     "date": "23/12/2024"
   },
   "transaction": {
-    "transaction_number": "01/332901004694",
+    "transaction_number": "01/220173",
     "date_time": "23/12/2024 10:12AM",
     "team_member": "Kira",
     "payment_method": "EFTPOS",
-    "approval_code": "R88624",
+    "approval_code": "R88624 00",
     "amount": 129.0,
     "gst_included": 11.73
   },
@@ -30,7 +30,8 @@
     "gst_included": 11.73,
     "grand_total": 129.0
   },
-  "notes": "Date format is assumed to be dd/mm/yyyy.",
+  "notes": "Date format is assumed to be dd/mm/yyyy. GST calculation is consistent with the total.",
+  "complete": "complete",
   "categories": [],
-  "scanned_on": "2025-01-06T11:56:25.235826"
+  "scanned_on": "2025-01-11T01:59:58.981766"
 }

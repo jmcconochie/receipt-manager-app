@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "Bunnings Group Limited",
+    "abn": "26 008 672 179",
+    "phone": "(08) 6350 5600",
+    "address": ""
+  },
+  "tax_invoice": {
+    "invoice_number": "",
+    "date": "10/03/2023"
+  },
+  "transaction": {
+    "transaction_number": "32438",
+    "date_time": "10/03/2023 01:18:24",
+    "team_member": "",
+    "payment_method": "EFT",
+    "approval_code": "534970-940",
+    "amount": 18.0,
+    "gst_included": 1.64
+  },
+  "items": [
+    {
+      "description": "Carpet Tile Polypropylene 50x50 Alfa Canel",
+      "price": 9.0,
+      "gst_in_item": 0.82
+    },
+    {
+      "description": "Carpet Tile Polypropylene 50x50 Alfa Buckwheat™",
+      "price": 9.0,
+      "gst_in_item": 0.82
+    }
+  ],
+  "totals": {
+    "subtotal": 18.0,
+    "gst_included": 1.64,
+    "grand_total": 18.0
+  },
+  "notes": "Date format is assumed to be dd/mm/yyyy. Some OCR errors corrected.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T05:36:48.312914"
+}

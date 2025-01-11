@@ -1,0 +1,77 @@
+{
+  "store": {
+    "name": "IKEA",
+    "abn": "84 006 270 787",
+    "phone": "(08) 8234 6944",
+    "address": "6 Sunray Drive, Innaloo WA 6018"
+  },
+  "tax_invoice": {
+    "invoice_number": "1AX INVOICE",
+    "date": "01/10/2023"
+  },
+  "transaction": {
+    "transaction_number": "",
+    "date_time": "",
+    "team_member": "",
+    "payment_method": "Debit Card",
+    "approval_code": "2424",
+    "amount": 150.3,
+    "gst_included": 0.0
+  },
+  "items": [
+    {
+      "description": "IKEA 365+ NN",
+      "price": 4.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "DVALA NNN fitt",
+      "price": 22.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "TJENA magaz",
+      "price": 11.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "FORSIKTIGT wine",
+      "price": 9.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "TISKEN basket",
+      "price": 30.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "IKEA PS 2002",
+      "price": 2.5,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "ELLOVEN monitor",
+      "price": 39.0,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "OFTAST plate 25",
+      "price": 4.86,
+      "gst_in_item": 0.0
+    },
+    {
+      "description": "Bargain ELLOVEN monitor",
+      "price": 20.0,
+      "gst_in_item": 0.0
+    }
+  ],
+  "totals": {
+    "subtotal": 150.3,
+    "gst_included": 0.0,
+    "grand_total": 150.3
+  },
+  "notes": "Date inferred as 01/10/2023 based on context. All items and totals appear consistent.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-09T05:28:05.770665"
+}

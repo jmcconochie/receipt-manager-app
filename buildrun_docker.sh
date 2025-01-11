@@ -41,5 +41,4 @@ else
   echo "docker logs $CONTAINER_NAME"
 fi
 
-
-
+echo -e "\a\a"

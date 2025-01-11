@@ -1,0 +1,42 @@
+{
+  "store": {
+    "name": "Petbarn Pty Ltd",
+    "abn": "78 001 802 759",
+    "phone": "08 9477 418",
+    "address": "Tenancy 3 225 Great Eastern Highway, Belmont WA 6104"
+  },
+  "tax_invoice": {
+    "invoice_number": "001 405103000U21bd0",
+    "date": "10/04/2023"
+  },
+  "transaction": {
+    "transaction_number": "200000000004",
+    "date_time": "10/04/2023 10:42",
+    "team_member": "Kathleen",
+    "payment_method": "MASTERCARD",
+    "approval_code": "940",
+    "amount": 37.73,
+    "gst_included": 3.43
+  },
+  "items": [
+    {
+      "description": "FCO DG TRAIN PADS 3C ea",
+      "price": 12.99,
+      "gst_in_item": 1.3
+    },
+    {
+      "description": "NM PUP SPRY PT TRAIN ea",
+      "price": 32.99,
+      "gst_in_item": 3.3
+    }
+  ],
+  "totals": {
+    "subtotal": 41.73,
+    "gst_included": 3.43,
+    "grand_total": 37.73
+  },
+  "notes": "The invoice number and ABN had slight discrepancies in the OCR scans. The date is in Australian format.",
+  "complete": "complete",
+  "categories": [],
+  "scanned_on": "2025-01-11T06:09:21.743147"
+}
